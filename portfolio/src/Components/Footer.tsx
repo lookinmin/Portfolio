@@ -54,8 +54,8 @@ const StyledFooter = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  padding: 2vh 2vw;
-  gap: 1vh;
+  padding: 2rem 0;
+  gap: 3vh;
   background-color: #3f3f3f;
 
   & > p:nth-child(1) {
