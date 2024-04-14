@@ -36,7 +36,7 @@ module.exports = {
       template: "./public/index.html",
       filename: "index.html",
     }),
-    new CopyPlugin({ patterns: [{ from: "public", to: "/" }] }),
+    new CopyPlugin({ patterns: [{ from: "/", to: "/public/" }] }),
   ],
   devServer: {
     static: {
