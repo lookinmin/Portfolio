@@ -5,6 +5,7 @@ import styled from "styled-components";
 import { About } from "../Components/About";
 import { Career } from "../Components/Career";
 import { Skills } from "../Components/Skills";
+import { Projects } from "../Components/Projects";
 
 export const Main = () => {
   return (
@@ -32,6 +33,7 @@ export const Main = () => {
       <About />
       <Skills />
       <Career />
+      <Projects />
     </StyledBody>
   );
 };
