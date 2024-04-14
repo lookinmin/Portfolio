@@ -30,7 +30,7 @@ export const About = () => {
   };
 
   return (
-    <Aboutdiv>
+    <Aboutdiv id="about">
       <div>
         <HiOutlineInformationCircle size={33} color="#c7e5ff" />
         <p>ABOUT ME</p>

@@ -1,6 +1,4 @@
 import React from "react";
-// import Carousel from "react-material-ui-carousel";
-// import { Paper, Button } from "@mui/material";
 import styled from "styled-components";
 import { About } from "../Components/About";
 import { Career } from "../Components/Career";
@@ -10,7 +8,7 @@ import { Projects } from "../Components/Projects";
 export const Main = () => {
   return (
     <StyledBody>
-      <InnerBody>
+      <InnerBody id="main">
         <p style={{ textAlign: "center", lineHeight: "3.3em" }}>
           <span style={{ fontSize: "1.7em", color: "skyblue" }}>WELCOME</span>
           <br />
@@ -26,13 +24,18 @@ export const Main = () => {
         </p>
 
         <div className="imgGrid">
-          <img src="./img/me.jpg" alt="내 사진" height="400px" />
-          <img src="./img/me2.jpg" alt="내 사진" height="400px" />
+          <img src="./img/me.jpg" alt="내 사진1" height="400px" />
+          <img src="./img/me2.jpg" alt="내 사진2" height="400px" />
+          <img src="./img/me3.jpg" alt="내 사진3" height="400px" />
         </div>
       </InnerBody>
+
       <About />
+
       <Skills />
+
       <Career />
+
       <Projects />
     </StyledBody>
   );
@@ -67,21 +70,30 @@ const InnerBody = styled.div`
 
   & > .imgGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1.5vw;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 5vh;
+    justify-items: center;
 
     & > img:nth-child(1) {
       position: relative;
       border-radius: 15px;
-      left: 10%;
+      left: 40%;
+      z-index: 1;
     }
 
     & > img:nth-child(2) {
       position: relative;
-      margin-top: 100px;
+      margin-top: 120px;
       border-radius: 15px;
-      left: -10%;
+      z-index: 2;
+    }
+
+    & > img:nth-child(3) {
+      position: relative;
+      margin-top: 50px;
+      border-radius: 15px;
+      left: -35%;
+      z-index: 1;
     }
   }
 `;

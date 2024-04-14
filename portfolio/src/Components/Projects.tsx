@@ -9,6 +9,10 @@ import { FiLink } from "react-icons/fi";
 import Carousel from "react-material-ui-carousel";
 import { Paper, Button } from "@mui/material";
 
+interface ProjectType {
+  layoutType: boolean;
+}
+
 interface Project {
   name: string;
   day: string;
@@ -53,9 +57,14 @@ export const Projects = () => {
       ],
       functions: ["소개용 웹 페이지"],
       GitUrl: "https://github.com/lookinmin/Portfolio",
-      isOut: true,
+      isOut: false,
       etcUrl: [""],
-      pictures: [],
+      pictures: [
+        "./img/pf/main.png",
+        "./img/pf/about.png",
+        "./img/pf/skills.png",
+        "./img/pf/project.png",
+      ],
       isVideo: false,
       video: "",
     },
@@ -100,7 +109,17 @@ export const Projects = () => {
         "https://github.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end",
       isOut: false,
       etcUrl: [""],
-      pictures: [],
+      pictures: [
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/로그인.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/main.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/make.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside1.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside2.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside3.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside4.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside5.png",
+        "https://raw.githubusercontent.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end/main/img/inside6.png",
+      ],
       isVideo: true,
       video: "https://www.youtube.com/embed/YBh9KXaR1kM",
     },
@@ -129,8 +148,9 @@ export const Projects = () => {
       ],
       description: [
         "Git-flow브랜치 전략 도입, JIRA를 통한 Agile 방법론 도입으로 효율적 협업 진행",
+        "요구사항 명세서, UML 다이어그램 등 문서 기반 체계적 설계 경험",
         "Prompt Engineering을 통한 인공 지능의 창의적 활용과 효율적 대화 모델 활용 경험",
-        "리팩토링을 통해 기존의 리스트뷰 Q&A를 Accordian 활용 기반으로 전환",
+        "기존의 리스트뷰 Q&A를 Accordian 활용 기반으로 전환 등 지속적 리팩토링",
         "근무했던 학원에 실 배포를 통한 50명의 실 사용자 피드백 및 유지보수",
         "Apache 2.0 License 기반의 GitHub 배포를 통한 오픈소스로서 2차 가공 기회 제공",
       ],
@@ -156,7 +176,20 @@ export const Projects = () => {
         "https://github.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end",
       isOut: true,
       etcUrl: ["http://codingcoach.co.kr/"],
-      pictures: [],
+      pictures: [
+        "./img/coco/main.png",
+        "./img/coco/main2.png",
+        "./img/coco/login.png",
+        "./img/coco/tasks.png",
+        "./img/coco/solve.png",
+        "./img/coco/result.png",
+        "./img/coco/commu.png",
+        "./img/coco/innercommu.png",
+        "./img/coco/group.png",
+        "./img/coco/QA.png",
+        "./img/coco/manage1.png",
+        "./img/coco/manage2.png",
+      ],
       isVideo: true,
       video: "https://www.youtube.com/embed/QmN3g7kjjw4",
     },
@@ -199,7 +232,13 @@ export const Projects = () => {
       etcUrl: [
         "https://play.google.com/store/apps/details?id=com.OFFSIDE.offside",
       ],
-      pictures: [],
+      pictures: [
+        "https://raw.githubusercontent.com/OFFSIDE-PDA/OFFSIDE/main/img/img1.jpg",
+        "https://raw.githubusercontent.com/OFFSIDE-PDA/OFFSIDE/main/img/img2.jpg",
+        "https://raw.githubusercontent.com/OFFSIDE-PDA/OFFSIDE/main/img/img3.jpg",
+        "https://raw.githubusercontent.com/OFFSIDE-PDA/OFFSIDE/main/img/img4.jpg",
+        "https://raw.githubusercontent.com/OFFSIDE-PDA/OFFSIDE/main/img/img5.jpg",
+      ],
       isVideo: false,
       video: "",
     },
@@ -235,7 +274,18 @@ export const Projects = () => {
       GitUrl: "https://github.com/lookinmin/BigDataSystem",
       isOut: false,
       etcUrl: [""],
-      pictures: [],
+      pictures: [
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/main.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/gamepage.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/game_detail-1.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/game_detail-2.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/game_detail-3.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/game_detail-4.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/search.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/chart1.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/chart2.png",
+        "https://raw.githubusercontent.com/lookinmin/BigDataSystem/main/img/data.png",
+      ],
       isVideo: false,
       video: "",
     },
@@ -276,12 +326,12 @@ export const Projects = () => {
       etcUrl: [""],
       pictures: [],
       isVideo: true,
-      video: "https://youtube.com/shorts/u6QpFJT4SDU?feature=share",
+      video: "https://www.youtube.com/embed/u6QpFJT4SDU",
     },
     {
       name: "Festival-ing : Fing",
       day: "2022.04 ~ 2022.10",
-      isWeb: true,
+      isWeb: false,
       isAward: true,
       award: ["2022 관광데이터 활용 공모전 장려상"],
       team: "6인",
@@ -312,14 +362,23 @@ export const Projects = () => {
       GitUrl: "https://github.com/lookinmin/Fing",
       isOut: true,
       etcUrl: ["https://lookinmin.github.io/"],
-      pictures: [],
+      pictures: [
+        "./img/fing/mark.png",
+        "./img/fing/main.png",
+        "./img/fing/fest.png",
+        "./img/fing/fest2.png",
+        "./img/fing/goods.png",
+        "./img/fing/mypage.png",
+        "./img/fing/loca.png",
+        "./img/fing/heart.png",
+      ],
       isVideo: false,
       video: "",
     },
   ];
 
   return (
-    <StyledWrapper>
+    <StyledWrapper id="project">
       <div>
         <PiCodeBlockFill size={30} color="c7e5ff" />
         <p>PROJECTS</p>
@@ -327,7 +386,7 @@ export const Projects = () => {
 
       {projects.map((project) => {
         return (
-          <ProjectBox key={project.name}>
+          <ProjectBox key={project.name} layoutType={project.isWeb}>
             <h3>[ {project.name} ]</h3>
             <p className="day">{project.day}</p>
             <div className="top">
@@ -337,7 +396,7 @@ export const Projects = () => {
                     {project.isVideo ? (
                       <iframe
                         width="100%"
-                        height="380"
+                        height="420"
                         src={project.video}
                         title={project.name}
                         allowFullScreen
@@ -345,9 +404,56 @@ export const Projects = () => {
                     ) : (
                       <></>
                     )}
+                    <Carousel className="imgSlide">
+                      {project.pictures.map((url) => {
+                        return (
+                          <Paper key={url}>
+                            <img
+                              height="400"
+                              width="100%"
+                              style={{
+                                objectFit: "contain",
+                                objectPosition: "center",
+                              }}
+                              src={url}
+                              alt="프로젝트 이미지"
+                            />
+                          </Paper>
+                        );
+                      })}
+                    </Carousel>
                   </WebGrid>
                 ) : (
-                  <AppGrid></AppGrid>
+                  <AppShow>
+                    {project.isVideo ? (
+                      <iframe
+                        width="50%"
+                        height="550px"
+                        src={project.video}
+                        title={project.name}
+                        allowFullScreen
+                      />
+                    ) : (
+                      <Carousel className="imgSlide">
+                        {project.pictures.map((url) => {
+                          return (
+                            <Paper key={url}>
+                              <img
+                                style={{
+                                  width: "100%",
+                                  height: "650px",
+                                  objectFit: "contain",
+                                  objectPosition: "center",
+                                }}
+                                src={url}
+                                alt="프로젝트 이미지"
+                              />
+                            </Paper>
+                          );
+                        })}
+                      </Carousel>
+                    )}
+                  </AppShow>
                 )}
               </div>
 
@@ -472,7 +578,7 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const ProjectBox = styled.div`
+const ProjectBox = styled.div<ProjectType>`
   display: flex;
   flex-flow: column nowrap;
   padding: 1.5em;
@@ -492,17 +598,25 @@ const ProjectBox = styled.div`
   & > .top {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: ${(props) =>
+      props.layoutType === true ? "5.5fr 4.5fr" : "4.5fr 5.5fr"};
     padding-top: 3vh;
 
     & > .left {
       padding-right: 2vw;
-      padding-top: 1.5vh;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      height: 100%;
     }
 
     & > .right {
       padding-left: 2vw;
       border-left: 2px dotted #919191;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      height: 100%;
       & > .isUp {
         display: flex;
         flex-flow: row nowrap;
@@ -577,16 +691,31 @@ const ProjectBox = styled.div`
 const WebGrid = styled.div`
   display: flex;
   flex-flow: column nowrap;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  & > .imgSlide {
+    width: 100%;
+    & > div {
+      max-height: 420px !important;
+    }
+  }
 `;
 
-const AppGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 1vw;
-  justify-items: center;
-  width: 100%;
+const AppShow = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+
+  padding-right: 2vw;
+  & > .imgSlide {
+    width: 50%;
+    & > div {
+      max-height: 650px !important;
+    }
+  }
 `;

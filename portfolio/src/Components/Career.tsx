@@ -4,7 +4,7 @@ import { FaPersonRunning } from "react-icons/fa6";
 
 export const Career = () => {
   return (
-    <CareerParent>
+    <CareerParent id="career">
       <div>
         <FaPersonRunning size={30} color="#c7e5ff" />
         <p>Career</p>
