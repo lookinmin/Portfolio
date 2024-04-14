@@ -13,21 +13,65 @@ export const Skills = () => {
       <ParentDiv>
         <div className="front">
           <p className="skill_title">for Front-End dev.</p>
-          <img src="./img/skills/js.png" alt="react" width="70px" />
-          <img src="./img/skills/ts.png" alt="react" width="71px" />
-          <img src="./img/skills/react.png" alt="react" width="70px" />
-          <img src="./img/skills/html.png" alt="react" width="80px" />
-          <img src="./img/skills/css.png" alt="react" width="57px" />
-          <img src="./img/skills/jquery.png" alt="react" width="70px" />
-          <img src="./img/skills/mui.png" alt="react" width="70px" />
-          <img src="./img/skills/bootstrap.png" alt="react" width="80px" />
-
-          <img src="./img/skills/redux.png" alt="react" width="80px" />
-
-          <img src="./img/skills/recoil.png" alt="react" width="150px" />
-          <img src="./img/skills/reactquery.png" alt="react" width="140px" />
           <img
-            src="./img/skills/styled-components.png"
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/js.png"
+            alt="react"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/ts.png"
+            alt="react"
+            width="71px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/react.png"
+            alt="react"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/html.png"
+            alt="react"
+            width="80px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/css.png"
+            alt="react"
+            width="57px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/jquery.png"
+            alt="react"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mui.png"
+            alt="react"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/bootstrap.png"
+            alt="react"
+            width="80px"
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/redux.png"
+            alt="react"
+            width="80px"
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/recoil.png"
+            alt="react"
+            width="150px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/reactquery.png"
+            alt="react"
+            width="140px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/styled-components.png"
             alt="react"
             width="100px"
           />
@@ -35,21 +79,65 @@ export const Skills = () => {
 
         <div className="back">
           <p className="skill_title">for Full-Stack dev.</p>
-          <img src="./img/skills/python.png" alt="react" width="70px" />
-          <img src="./img/skills/fastapi.png" alt="cpp" width="160px" />
-          <img src="./img/skills/flutter.png" alt="react" width="130px" />
-          <img src="./img/skills/mysql.png" alt="cpp" width="70px" />
-          <img src="./img/skills/mongo.png" alt="cpp" width="80px" />
-          <img src="./img/skills/firebase.png" alt="cpp" width="160px" />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/python.png"
+            alt="react"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/fastapi.png"
+            alt="cpp"
+            width="160px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/flutter.png"
+            alt="react"
+            width="130px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mysql.png"
+            alt="cpp"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mongo.png"
+            alt="cpp"
+            width="80px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/firebase.png"
+            alt="cpp"
+            width="160px"
+          />
         </div>
 
         <div className="etc">
           <p className="skill_title">ETC</p>
-          <img src="./img/skills/c.png" alt="c" width="82px" />
-          <img src="./img/skills/cpp.png" alt="cpp" width="70px" />
-          <img src="./img/skills/figma.png" alt="cpp" width="80px" />
-          <img src="./img/skills/jira.png" alt="cpp" width="130px" />
-          <img src="./img/skills/github.png" alt="cpp" width="80px" />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/c.png"
+            alt="c"
+            width="82px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/cpp.png"
+            alt="cpp"
+            width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/figma.png"
+            alt="cpp"
+            width="80px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/jira.png"
+            alt="cpp"
+            width="130px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/github.png"
+            alt="cpp"
+            width="80px"
+          />
         </div>
       </ParentDiv>
     </Wrapper>

@@ -24,9 +24,21 @@ export const Main = () => {
         </p>
 
         <div className="imgGrid">
-          <img src="./img/me.jpg" alt="내 사진1" height="400px" />
-          <img src="./img/me2.jpg" alt="내 사진2" height="400px" />
-          <img src="./img/me3.jpg" alt="내 사진3" height="400px" />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/me.jpg"
+            alt="내 사진1"
+            height="400px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/me2.jpg"
+            alt="내 사진2"
+            height="400px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/me3.jpg"
+            alt="내 사진3"
+            height="400px"
+          />
         </div>
       </InnerBody>
 
