@@ -30,7 +30,7 @@ export const Main = () => {
             height="400px"
           />
           <img
-            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/me2.jpg"
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/me.jpg"
             alt="내 사진2"
             height="400px"
           />
