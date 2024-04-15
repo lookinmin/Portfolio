@@ -7,7 +7,7 @@ export const Career = () => {
     <CareerParent id="career">
       <div>
         <FaPersonRunning size={30} color="#c7e5ff" />
-        <p>Career</p>
+        <p>CAREER</p>
       </div>
 
       <CareerBox>

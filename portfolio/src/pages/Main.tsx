@@ -10,7 +10,9 @@ export const Main = () => {
     <StyledBody>
       <InnerBody id="main">
         <p style={{ textAlign: "center", lineHeight: "3.3em" }}>
-          <span style={{ fontSize: "1.7em", color: "skyblue" }}>WELCOME</span>
+          <span style={{ fontSize: "1.7em", color: "skyblue" }} id="welcome">
+            WELCOME
+          </span>
           <br />
           Front-End & Full-Stack Developer
         </p>
@@ -71,6 +73,10 @@ const InnerBody = styled.div`
     font-size: 2rem;
     font-weight: 500;
     color: #c7e5ff;
+    & > #welcome {
+      animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+        0.5s both;
+    }
   }
 
   & > p:nth-child(2) {
@@ -91,6 +97,7 @@ const InnerBody = styled.div`
       border-radius: 15px;
       left: 40%;
       z-index: 1;
+      animation: slide-in-left 1s ease-out both;
     }
 
     & > img:nth-child(2) {
@@ -98,6 +105,7 @@ const InnerBody = styled.div`
       margin-top: 120px;
       border-radius: 15px;
       z-index: 2;
+      animation: slide-in-bottom 1s ease-out both;
     }
 
     & > img:nth-child(3) {
@@ -106,6 +114,7 @@ const InnerBody = styled.div`
       border-radius: 15px;
       left: -35%;
       z-index: 1;
+      animation: slide-in-right 1s ease-out both;
     }
   }
 `;

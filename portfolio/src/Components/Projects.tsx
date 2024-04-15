@@ -54,6 +54,7 @@ export const Projects = () => {
         "Styled-components",
         "MediaQuery",
         "Vercel",
+        "@babel webpack",
       ],
       functions: ["소개용 웹 페이지"],
       GitUrl: "https://github.com/lookinmin/Portfolio",
@@ -412,7 +413,7 @@ export const Projects = () => {
                               height="400"
                               width="100%"
                               style={{
-                                objectFit: "contain",
+                                objectFit: "fill",
                                 objectPosition: "center",
                               }}
                               src={url}
