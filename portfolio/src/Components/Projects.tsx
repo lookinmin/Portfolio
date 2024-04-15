@@ -413,7 +413,7 @@ export const Projects = () => {
                               height="400"
                               width="100%"
                               style={{
-                                objectFit: "fill",
+                                objectFit: "contain",
                                 objectPosition: "center",
                               }}
                               src={url}

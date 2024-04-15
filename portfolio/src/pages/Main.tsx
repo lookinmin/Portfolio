@@ -74,8 +74,8 @@ const InnerBody = styled.div`
     font-weight: 500;
     color: #c7e5ff;
     & > #welcome {
-      animation: tracking-in-contract 1s cubic-bezier(0.215, 0.61, 0.355, 1)
-        0.5s both;
+      animation: tracking-in-contract 1.5 cubic-bezier(0.215, 0.61, 0.355, 1) 1s
+        both;
     }
   }
 
@@ -97,7 +97,7 @@ const InnerBody = styled.div`
       border-radius: 15px;
       left: 40%;
       z-index: 1;
-      animation: slide-in-left 1s ease-out both;
+      animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
     }
 
     & > img:nth-child(2) {
@@ -105,7 +105,8 @@ const InnerBody = styled.div`
       margin-top: 120px;
       border-radius: 15px;
       z-index: 2;
-      animation: slide-in-bottom 1s ease-out both;
+      animation: slide-in-bottom 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
+        both;
     }
 
     & > img:nth-child(3) {
@@ -114,7 +115,8 @@ const InnerBody = styled.div`
       border-radius: 15px;
       left: -35%;
       z-index: 1;
-      animation: slide-in-right 1s ease-out both;
+      animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
+        both;
     }
   }
 `;
