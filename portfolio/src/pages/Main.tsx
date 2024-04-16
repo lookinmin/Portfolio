@@ -74,8 +74,8 @@ const InnerBody = styled.div`
     font-weight: 500;
     color: #c7e5ff;
     & > #welcome {
-      animation: tracking-in-contract 1.5 cubic-bezier(0.215, 0.61, 0.355, 1) 1s
-        both;
+      animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+        1s both;
     }
   }
 

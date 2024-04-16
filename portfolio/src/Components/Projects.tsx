@@ -410,7 +410,7 @@ export const Projects = () => {
                         return (
                           <Paper key={url}>
                             <img
-                              height="400"
+                              height="390"
                               width="100%"
                               style={{
                                 objectFit: "contain",
@@ -700,7 +700,7 @@ const WebGrid = styled.div`
   & > .imgSlide {
     width: 100%;
     & > div {
-      max-height: 420px !important;
+      max-height: 380px !important;
     }
   }
 `;

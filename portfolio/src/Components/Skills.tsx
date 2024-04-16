@@ -1,6 +1,7 @@
 import React from "react";
 import { RiToolsFill } from "react-icons/ri";
 import styled from "styled-components";
+import { IoFlagSharp } from "react-icons/io5";
 
 export const Skills = () => {
   return (
@@ -9,6 +10,120 @@ export const Skills = () => {
         <RiToolsFill size={30} color="#c7e5ff" />
         <p>SKILLS</p>
       </div>
+
+      <TxtDiv>
+        <div className="fe">
+          <div className="flag">
+            <p>Front-End</p>
+            <IoFlagSharp color="#98cfff" size={22} />
+          </div>
+
+          <li>
+            Framework는 주로 <span className="sk">React</span>를 통해 개발하며
+            사용 언어는 <span className="sk">JavaScript</span>,{" "}
+            <span className="sk">TypeScript</span>를 필요에 따라 선택해
+            사용합니다.
+          </li>
+          <li>
+            <span className="sk">useState, useReducer</span>같은 상태 관리
+            Hooks를 자유로이 사용하며,{" "}
+            <span className="sk">useMemo, useEffect</span>와 같은 렌더링 관련 훅
+            또한 무리 없이 사용합니다.
+          </li>
+          <li>
+            <span className="nk">Props drilling</span> 등의 문제에서 벗어나기
+            위해 <span className="sk">Redux, Recoil</span> 전역 상태관리
+            라이브러리를 지속적으로 도입해왔습니다.
+          </li>
+          <li>
+            React 내에서 <span className="sk">React-responsive</span>와{" "}
+            <span className="sk">MediaQuery</span>를 통해 반응형 UI를 설계하고
+            구축할 수 있습니다.
+          </li>
+          <li>
+            REST API의 구조를 인지하고 있으며 비동기 통신을 위해{" "}
+            <span className="sk">Axios, Ajax, React-query</span>를 적극적으로
+            사용합니다.
+          </li>
+          <li>
+            <span className="sk">Bootstrap</span>과{" "}
+            <span className="sk">Mui</span>와 같은 오픈소스를 적극적으로
+            활용하고, 단순히 가져다쓰지 않고 기반 디자인에 맞추어 커스텀 하는
+            것을 지향합니다.
+          </li>
+          <li>
+            UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{" "}
+            <span className="sk">flex, grid</span> display를 통한 layout 구성을
+            잘합니다.
+          </li>
+          <li>
+            크로스 브라우징 이슈에 민감하게 대응하고, 웹 표준과 웹 접근성을
+            고려한 설계와 시맨틱 마크업을 위해 고심합니다.
+          </li>
+          <li>
+            현재는 <span className="sk">PWA</span>를 관심있게 지켜보고 있으며,{" "}
+            <span className="sk">AWS S3</span>와{" "}
+            <span className="sk">CloudFront</span>를 공부하고 있습니다.
+          </li>
+        </div>
+
+        <div className="ba">
+          <div className="flag">
+            <p>Back-End & Database</p>
+            <IoFlagSharp color="#98cfff" size={22} />
+          </div>
+          <li>
+            REST 원칙을 이해하고, REST API와 RESTful API를 설계할 수 있습니다.
+          </li>
+          <li>
+            Python 기반의 <span className="sk">FastAPI</span> Framework을 통해
+            웹 서버를 구축할 수 있습니다.
+          </li>
+          <li>
+            <span className="sk">Express</span> 기반의 간단한 웹 서버를 구축할
+            수 있습니다.
+          </li>
+          <li>
+            <span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수 있으며,{" "}
+            <span className="sk">INDEX, VIEW</span> 등의 기술에 대한 이해를
+            갖추고 있습니다.
+          </li>
+          <li>
+            <span className="sk">MongoDB, Firebase</span> 를 통한 Cloud DB 연동
+            경험과 서비스 개발 경험이 있습니다.
+          </li>
+        </div>
+
+        <div className="etc">
+          <div className="flag">
+            <p>ETC</p>
+            <IoFlagSharp color="#98cfff" size={22} />
+          </div>
+
+          <li>
+            C언어와 C++ 의 언어 구조를 인지하고, 강사로서 이를 가르쳤습니다.
+          </li>
+          <li>
+            <span className="sk">Flutter</span>를 통한 Cross-Platform App 개발에
+            능하고, 서비스 배포 경험이 있습니다.
+          </li>
+          <li>
+            <span className="sk">Android Studio</span> 기반 Native App 개발
+            경험이 있으며, 서비스 배포 경험이 있습니다.
+          </li>
+          <li>
+            Agile 방법론의 이론에 대해 깊이 이해하고 있으며, Jira를 통해 이를
+            프로젝트에 도입하는 것을 지향합니다.
+          </li>
+          <li>
+            Git-flow / GitHub-flow 브랜치 전략을 이해하고, 도입해왔습니다.
+          </li>
+          <li>
+            Figma를 통한 UI/UX 기획 설계 단계에 참여할 수 있으며, 이를
+            좋아합니다.
+          </li>
+        </div>
+      </TxtDiv>
 
       <ParentDiv>
         <div className="front">
@@ -90,10 +205,11 @@ export const Skills = () => {
             width="160px"
           />
           <img
-            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/flutter.png"
-            alt="react"
-            width="130px"
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/Node JS.png"
+            alt="cpp"
+            width="120px"
           />
+
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mysql.png"
             alt="cpp"
@@ -124,17 +240,39 @@ export const Skills = () => {
             width="70px"
           />
           <img
-            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/figma.png"
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/vercel.png"
+            alt="flutter"
+            width="130px"
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/flutter.png"
+            alt="flutter"
+            width="130px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/dart.png"
+            alt="dart"
+            width="110px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/Android Studio.png"
+            alt="as"
+            width="90px"
+          />
+
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/jira.png"
+            alt="cpp"
+            width="120px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/github.png"
             alt="cpp"
             width="80px"
           />
           <img
-            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/jira.png"
-            alt="cpp"
-            width="130px"
-          />
-          <img
-            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/github.png"
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/figma.png"
             alt="cpp"
             width="80px"
           />
@@ -163,14 +301,56 @@ const Wrapper = styled.div`
       font-weight: 500;
       color: #c7e5ff;
     }
+
     margin-bottom: 3vh;
+  }
+`;
+
+const TxtDiv = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  justify-content: center;
+  width: clamp(550px, 100%, 1140px);
+  gap: 2vh;
+  margin: 3vh 0;
+
+  & > div {
+    display: flex;
+    flex-flow: column nowrap;
+    & > .flag {
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 15px !important;
+      & > p:nth-child(1) {
+        font-size: 1.4rem;
+        color: #98cfff;
+      }
+    }
+
+    & > li {
+      line-height: 1.8em;
+      font-size: 0.95em;
+      list-style-position: inside;
+      list-style-type: circle;
+      & > .sk {
+        color: #d2ff98;
+      }
+      & > .nk {
+        color: #ffa498;
+      }
+    }
   }
 `;
 
 const ParentDiv = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 100%;
+  max-width: 1150px;
   gap: 2rem;
   justify-content: center;
   padding: 2vh 2vw;
@@ -201,7 +381,7 @@ const ParentDiv = styled.div`
     grid-column: 1/3;
     grid-row: 3/5;
     border-radius: 20px;
-    background-color: #a3d494;
+    background-color: #b8e4ab;
     padding: 2rem;
 
     display: grid;
@@ -221,10 +401,10 @@ const ParentDiv = styled.div`
 
   & > .etc {
     grid-column: 3/5;
-    grid-row: 3/5;
+    grid-row: 3/6;
 
     border-radius: 20px;
-    background-color: #8ebdbe;
+    background-color: #9acbcc;
     padding: 2rem;
 
     display: grid;
