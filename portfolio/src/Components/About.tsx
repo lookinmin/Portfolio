@@ -6,8 +6,12 @@ import { MdEmail } from "react-icons/md";
 import { PiMedalMilitaryFill } from "react-icons/pi";
 import { TbAwardFilled } from "react-icons/tb";
 import { BsFillAwardFill } from "react-icons/bs";
+import { useRecoilValue } from "recoil";
+import { univState } from "../atoms/blind";
 
 export const About = () => {
+  const univ = useRecoilValue(univState);
+
   const clickHandler = (e: number) => {
     switch (e) {
       case 1:
@@ -63,7 +67,7 @@ export const About = () => {
               <p>학력</p>
             </div>
 
-            <p>충북대학교 소프트웨어학과 졸업</p>
+            <p>{univ} 소프트웨어학과 졸업</p>
           </ShowText>
 
           <ShowText>
@@ -88,15 +92,13 @@ export const About = () => {
             </div>
 
             <div className="list">
-              <li>충북대학교 전자정보대학 제 22대 SUMMIT 학생회 복지국장</li>
+              <li>{univ} 전자정보대학 제 22대 SUMMIT 학생회 복지국장</li>
               <p className="subText">2023.01.01 ~ 2023.12.31</p>
               <li>학과 동아리 PDA-PRO 학습부장</li>
               <p className="subText">2022.01.01 ~ 2023.12.31</p>
-              <li>SW중심사업단 학부생 튜터</li>
+              <li>{univ} SW중심사업단 학부생 튜터</li>
               <p className="subText">2022.09.01 ~ 2023.07.01</p>
-              <li>
-                충북대학교 전자정보대학 제 21대 EQUALITY 학생회 정책기획국장
-              </li>
+              <li>{univ} 전자정보대학 제 21대 EQUALITY 학생회 정책기획국장</li>
               <p className="subText">2022.01.01 ~ 2022.12.31</p>
               <li>학과 동아리 CGAC 사무차장</li>
               <p className="subText">2019.01.01 ~ 2019.07.22</p>
@@ -129,7 +131,7 @@ export const About = () => {
               <li onClick={() => clickHandler(1)}>
                 2023 오픈소스SW 동아리 최우수상
               </li>
-              <p className="subText">2023.12.08 / 충북대학교 SW중심사업단</p>
+              <p className="subText">2023.12.08 / {univ} SW중심사업단</p>
               <li onClick={() => clickHandler(2)}>
                 2023 공개SW 개발자대회 동상 - (주)비아웹 대표상
               </li>
@@ -139,9 +141,9 @@ export const About = () => {
               </li>
               <p className="subText">2023.11.29 / 한국관광공사</p>
               <li onClick={() => clickHandler(4)}>
-                2023 충북대학교 전자정보대학 캡스톤 디자인 대상
+                2023 {univ} 전자정보대학 캡스톤 디자인 대상
               </li>
-              <p className="subText">2023.11.03 / 충북대학교 전자정보대학</p>
+              <p className="subText">2023.11.03 / {univ} 전자정보대학</p>
               <li onClick={() => clickHandler(5)}>
                 2022 충청권 ICT 메이커톤 우수상
               </li>
@@ -153,7 +155,7 @@ export const About = () => {
               <li onClick={() => clickHandler(7)}>
                 2022 오픈소스전문프로젝트 교과기반 프로젝트 우수상
               </li>
-              <p className="subText">2022.06.30 / 충북대학교 SW중심사업단</p>
+              <p className="subText">2022.06.30 / {univ} SW중심사업단</p>
             </div>
           </ShowText>
         </Wrapper>
@@ -270,7 +272,6 @@ const ShowText = styled.div`
 
     & > li {
       padding: 0.5em 0;
-      cursor: pointer;
     }
 
     & > .subText {

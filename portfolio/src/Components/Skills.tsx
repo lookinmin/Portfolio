@@ -367,7 +367,6 @@ const ParentDiv = styled.div`
     & > .skill_title {
       grid-column: 1/7;
       font-size: 1.8em;
-      font-weight: 600;
       color: #2b2b2b;
       font-family: "WavvePADO-Regular";
     }

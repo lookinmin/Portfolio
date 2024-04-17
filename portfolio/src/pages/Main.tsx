@@ -1,11 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { About } from "../Components/About";
 import { Career } from "../Components/Career";
 import { Skills } from "../Components/Skills";
 import { Projects } from "../Components/Projects";
+import Swal from "sweetalert2";
+import { univState } from "../atoms/blind";
+import { useRecoilState } from "recoil";
 
 export const Main = () => {
+  const [univ, setUniv] = useRecoilState(univState);
+
+  useEffect(() => {
+    Swal.fire({
+      title: "WELCOME",
+      text: "방문해주셔서 감사합니다. 블라인드 채용 담당자이신가요?",
+      icon: "question",
+      allowEscapeKey: false,
+      showDenyButton: true,
+      confirmButtonText: "네",
+      denyButtonText: "아니오",
+    }).then((res) => {
+      if (res.isConfirmed) {
+        setUniv("00대학교");
+      }
+    });
+  }, [setUniv]);
+
   return (
     <StyledBody>
       <InnerBody id="main">

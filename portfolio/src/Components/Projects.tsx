@@ -7,7 +7,9 @@ import { BsQuestionLg, BsExclamationLg } from "react-icons/bs";
 import { MdOutlineLaptopChromebook } from "react-icons/md";
 import { FiLink } from "react-icons/fi";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
+import { Paper } from "@mui/material";
+import { useRecoilValue } from "recoil";
+import { univState } from "../atoms/blind";
 
 interface ProjectType {
   layoutType: boolean;
@@ -34,6 +36,8 @@ interface Project {
 }
 
 export const Projects = () => {
+  const univ = useRecoilValue(univState);
+
   const projects: Project[] = [
     {
       name: "lookin_min's Portfolio",
@@ -52,7 +56,7 @@ export const Projects = () => {
         "React",
         "TypeScript",
         "Styled-components",
-        "MediaQuery",
+        "MediaQuery, Recoil",
         "Vercel",
         "@babel webpack",
       ],
@@ -469,7 +473,7 @@ export const Projects = () => {
                   <>
                     <div className="isUp">
                       <TbAwardFilled size={25} color="gold" />
-                      <p>수상 내역</p>
+                      <p style={{ color: "gold" }}>수상 내역</p>
                     </div>
                     {project.award.map((val) => {
                       return <li>{val}</li>;

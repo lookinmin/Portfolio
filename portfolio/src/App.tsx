@@ -3,14 +3,17 @@ import "./App.css";
 import { Header } from "./Components/Header";
 import { Footer } from "./Components/Footer";
 import { Main } from "./pages/Main";
+import { RecoilRoot } from "recoil";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <RecoilRoot>
+      <div className="App">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </RecoilRoot>
   );
 }
 
