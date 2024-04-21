@@ -177,8 +177,7 @@ export const Projects = () => {
         "AI 기반 알고리즘 문제 생성, AI 시스템 플러그인 기능",
         "마이페이지 내 학습 상태 확인",
       ],
-      GitUrl:
-        "https://github.com/CGAC-Contribution-Group-As-Code/eduConnect-front-end",
+      GitUrl: "https://github.com/PDA-PRO/.github",
       isOut: true,
       etcUrl: ["http://codingcoach.co.kr/"],
       pictures: [
