@@ -110,9 +110,11 @@ export const About = () => {
           <ShowText>
             <div className="un">
               <BsFillAwardFill size={23} color="lightgray" />
-              <p>자격증</p>
+              <p>자격증, 어학</p>
             </div>
             <div className="list">
+              <li>OPIc IH</li>
+              <p className="subText">2024.05.07</p>
               <li>정보처리기사</li>
               <p className="subText">2023.11.15</p>
             </div>
