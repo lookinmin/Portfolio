@@ -19,20 +19,20 @@ export const Skills = () => {
           </div>
 
           <li>
-            Framework는 주로 <span className="sk">React</span>를 통해 개발하며
-            사용 언어는 <span className="sk">JavaScript</span>,{" "}
-            <span className="sk">TypeScript</span>를 필요에 따라 선택해
+            <span className="sk">React</span> Framework를 능숙하게 다루며
+            <span className="sk">JavaScript</span>,{" "}
+            <span className="sk">TypeScript</span>를 환경에 맞추어 선택해
             사용합니다.
           </li>
           <li>
             <span className="sk">useState, useReducer</span>같은 상태 관리
             Hooks를 자유로이 사용하며,{" "}
-            <span className="sk">useMemo, useEffect</span>와 같은 렌더링 관련 훅
+            <span className="sk">useMemo, useEffect</span> 등의 렌더링 관련 Hooks
             또한 무리 없이 사용합니다.
           </li>
           <li>
             <span className="nk">Props drilling</span> 등의 문제에서 벗어나기
-            위해 <span className="sk">Redux, Recoil</span> 전역 상태관리
+            위해 <span className="sk">Redux, Recoil</span> 상태관리
             라이브러리를 지속적으로 도입해왔습니다.
           </li>
           <li>
@@ -42,28 +42,26 @@ export const Skills = () => {
           </li>
           <li>
             REST API의 구조를 인지하고 있으며 비동기 통신을 위해{" "}
-            <span className="sk">Axios, Ajax, React-query</span>를 적극적으로
+            <span className="sk">Axios, React-query, Redux-thunk</span>를 자유로이
             사용합니다.
           </li>
           <li>
-            <span className="sk">Bootstrap</span>과{" "}
+            <span className="sk">Bootstrap</span>,{" "}
             <span className="sk">Mui</span>와 같은 오픈소스를 적극적으로
-            활용하고, 단순히 가져다쓰지 않고 기반 디자인에 맞추어 커스텀 하는
-            것을 지향합니다.
+            활용하고, 단순한 차용보단 기반 디자인에 맞춘 커스텀을 지향합니다.
           </li>
           <li>
             UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{" "}
-            <span className="sk">flex, grid</span> display를 통한 layout 구성을
-            잘합니다.
+            <span className="sk">flex, grid</span> display를 통한 layout 구성에 능합니다.
           </li>
           <li>
             크로스 브라우징 이슈에 민감하게 대응하고, 웹 표준과 웹 접근성을
-            고려한 설계와 시맨틱 마크업을 위해 고심합니다.
+            고려한 설계와 시맨틱 마크업을 고려합니다.
           </li>
           <li>
             현재는 <span className="sk">PWA</span>를 관심있게 지켜보고 있으며,{" "}
-            <span className="sk">AWS S3</span>와{" "}
-            <span className="sk">CloudFront</span>를 공부하고 있습니다.
+            <span className="sk">웹 성능 최적화</span>와{" "}
+            <span className="sk">Webpack</span>를 공부하고 있습니다.
           </li>
         </div>
 
@@ -84,12 +82,12 @@ export const Skills = () => {
             수 있습니다.
           </li>
           <li>
-            <span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수 있으며,{" "}
+            RDBMS의<span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수 있으며,{" "}
             <span className="sk">INDEX, VIEW</span> 등의 기술에 대한 이해를
             갖추고 있습니다.
           </li>
           <li>
-            <span className="sk">MongoDB, Firebase</span> 를 통한 Cloud DB 연동
+            <span className="sk">MongoDB, Firebase</span> 를 통한 NoSQL DB
             경험과 서비스 개발 경험이 있습니다.
           </li>
         </div>
@@ -101,26 +99,25 @@ export const Skills = () => {
           </div>
 
           <li>
-            C언어와 C++ 의 언어 구조를 인지하고, 강사로서 이를 가르쳤습니다.
+            C언어와 C++ 의 언어 구조를 인지하고, 강사로서 교육한 경험이 있습니다.
           </li>
           <li>
-            <span className="sk">Flutter</span>를 통한 Cross-Platform App 개발에
+            <span className="sk">Flutter</span>를 통한 Cross-Platform Application 개발에
             능하고, 서비스 배포 경험이 있습니다.
           </li>
           <li>
-            <span className="sk">Android Studio</span> 기반 Native App 개발
+            <span className="sk">Android Studio</span> 기반 Native Application 개발
             경험이 있으며, 서비스 배포 경험이 있습니다.
           </li>
           <li>
-            Agile 방법론의 이론에 대해 깊이 이해하고 있으며, Jira를 통해 이를
+            Agile 방법론에 대해 깊이 이해하고 있으며, Jira를 통해 이를
             프로젝트에 도입하는 것을 지향합니다.
           </li>
           <li>
             Git-flow / GitHub-flow 브랜치 전략을 이해하고, 도입해왔습니다.
           </li>
           <li>
-            Figma를 통한 UI/UX 기획 설계 단계에 참여할 수 있으며, 이를
-            좋아합니다.
+            UI/UX 기획 설계 단계에 참여하고, Figma를 간단히 다룰 수 있습니다.
           </li>
         </div>
       </TxtDiv>

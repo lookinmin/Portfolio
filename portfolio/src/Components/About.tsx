@@ -49,7 +49,7 @@ export const About = () => {
               <p>ME</p>
             </div>
 
-            <p>조민수, Min-Su Jo</p>
+            <p>조민수, Min-Su CHO</p>
           </ShowText>
 
           <ShowText>
