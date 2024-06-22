@@ -50,17 +50,22 @@ export const Projects = () => {
       why: ["포트폴리오를 위한 웹 사이트 제작"],
       description: [
         "포트폴리오 웹사이트 구축 및 배포",
-        "React TS, Styled-components를 통한 개발, Vercel을 통한 배포",
+        "React TS, Styled-components를 통한 CSS-in-JS 개발",
+        "Vercel을 통한 Git 연동 배포",
       ],
       skills: [
         "React",
         "TypeScript",
         "Styled-components",
-        "MediaQuery, Recoil",
+        "@media, Recoil",
         "Vercel",
         "@babel webpack",
       ],
-      functions: ["소개용 웹 페이지"],
+      functions: [
+        "소개용 웹 페이지",
+        "방문자에 따른 정보 공개 상태 처리",
+        "@media를 통한 반응형 UI",
+      ],
       GitUrl: "https://github.com/lookinmin/Portfolio",
       isOut: false,
       etcUrl: [""],
@@ -430,9 +435,7 @@ export const Projects = () => {
                 ) : (
                   <AppShow>
                     {project.isVideo ? (
-                      <iframe
-                        width="50%"
-                        height="550px"
+                      <ResponsiveFrame
                         src={project.video}
                         title={project.name}
                         allowFullScreen
@@ -582,6 +585,14 @@ const StyledWrapper = styled.div`
   }
 `;
 
+const ResponsiveFrame = styled.iframe`
+  width: 50%;
+  height: 550px;
+  @media (max-width: 1250px) {
+    width: 90%;
+  }
+`;
+
 const ProjectBox = styled.div<ProjectType>`
   display: flex;
   flex-flow: column nowrap;
@@ -717,9 +728,12 @@ const AppShow = styled.div`
 
   padding-right: 2vw;
   & > .imgSlide {
-    width: 50%;
+    width: 60%;
     & > div {
       max-height: 650px !important;
+    }
+    @media (max-width: 1250px) {
+      width: 90%;
     }
   }
 `;

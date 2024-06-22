@@ -19,7 +19,7 @@ export const Footer = () => {
   };
 
   return (
-    <StyledFooter>
+    <StyledFooter id="footer">
       <p>Thanks for visiting</p>
       <div>
         <IoLogoGithub

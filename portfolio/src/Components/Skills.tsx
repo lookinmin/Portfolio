@@ -27,13 +27,13 @@ export const Skills = () => {
           <li>
             <span className="sk">useState, useReducer</span>같은 상태 관리
             Hooks를 자유로이 사용하며,{" "}
-            <span className="sk">useMemo, useEffect</span> 등의 렌더링 관련 Hooks
-            또한 무리 없이 사용합니다.
+            <span className="sk">useMemo, useEffect</span> 등의 렌더링 관련
+            Hooks 또한 무리 없이 사용합니다.
           </li>
           <li>
             <span className="nk">Props drilling</span> 등의 문제에서 벗어나기
-            위해 <span className="sk">Redux, Recoil</span> 상태관리
-            라이브러리를 지속적으로 도입해왔습니다.
+            위해 <span className="sk">Redux, Recoil</span> 상태관리 라이브러리를
+            지속적으로 도입해왔습니다.
           </li>
           <li>
             React 내에서 <span className="sk">React-responsive</span>와{" "}
@@ -42,8 +42,8 @@ export const Skills = () => {
           </li>
           <li>
             REST API의 구조를 인지하고 있으며 비동기 통신을 위해{" "}
-            <span className="sk">Axios, React-query, Redux-thunk</span>를 자유로이
-            사용합니다.
+            <span className="sk">Axios, React-query, Redux-thunk</span>를
+            자유로이 사용합니다.
           </li>
           <li>
             <span className="sk">Bootstrap</span>,{" "}
@@ -52,7 +52,8 @@ export const Skills = () => {
           </li>
           <li>
             UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{" "}
-            <span className="sk">flex, grid</span> display를 통한 layout 구성에 능합니다.
+            <span className="sk">flex, grid</span> display를 통한 layout 구성에
+            능합니다.
           </li>
           <li>
             크로스 브라우징 이슈에 민감하게 대응하고, 웹 표준과 웹 접근성을
@@ -82,9 +83,9 @@ export const Skills = () => {
             수 있습니다.
           </li>
           <li>
-            RDBMS의<span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수 있으며,{" "}
-            <span className="sk">INDEX, VIEW</span> 등의 기술에 대한 이해를
-            갖추고 있습니다.
+            RDBMS의<span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수
+            있으며, <span className="sk">INDEX, VIEW</span> 등의 기술에 대한
+            이해를 갖추고 있습니다.
           </li>
           <li>
             <span className="sk">MongoDB, Firebase</span> 를 통한 NoSQL DB
@@ -99,15 +100,16 @@ export const Skills = () => {
           </div>
 
           <li>
-            C언어와 C++ 의 언어 구조를 인지하고, 강사로서 교육한 경험이 있습니다.
+            C언어와 C++ 의 언어 구조를 인지하고, 강사로서 교육한 경험이
+            있습니다.
           </li>
           <li>
-            <span className="sk">Flutter</span>를 통한 Cross-Platform Application 개발에
-            능하고, 서비스 배포 경험이 있습니다.
+            <span className="sk">Flutter</span>를 통한 Cross-Platform
+            Application 개발에 능하고, 서비스 배포 경험이 있습니다.
           </li>
           <li>
-            <span className="sk">Android Studio</span> 기반 Native Application 개발
-            경험이 있으며, 서비스 배포 경험이 있습니다.
+            <span className="sk">Android Studio</span> 기반 Native Application
+            개발 경험이 있으며, 서비스 배포 경험이 있습니다.
           </li>
           <li>
             Agile 방법론에 대해 깊이 이해하고 있으며, Jira를 통해 이를
@@ -312,6 +314,11 @@ const TxtDiv = styled.div`
   gap: 2vh;
   margin: 3vh 0;
 
+  @media (max-width: 1100px) {
+    padding-left: 0.5vw;
+    width: 95%;
+  }
+
   & > div {
     display: flex;
     flex-flow: column nowrap;
@@ -347,10 +354,17 @@ const ParentDiv = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   width: 100%;
-  max-width: 1150px;
+  max-width: 1100px;
   gap: 2rem;
   justify-content: center;
   padding: 2vh 2vw;
+
+  @media (max-width: 1100px) {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2vh;
+    width: 85%;
+  }
 
   & > .front {
     grid-column: 1/5;

@@ -139,5 +139,22 @@ const InnerBody = styled.div`
       animation: slide-in-right 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s
         both;
     }
+
+    @media (max-width: 1300px) {
+      width: 90%;
+      grid-template-columns: repeat(2, 1fr);
+      & > img:nth-child(1) {
+        left: 30%; /* Adjust the left position */
+      }
+
+      & > img:nth-child(2) {
+        margin-top: 200px;
+        left: -15%;
+      }
+
+      & > img:nth-child(3) {
+        display: none;
+      }
+    }
   }
 `;

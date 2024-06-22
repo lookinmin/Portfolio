@@ -12,6 +12,13 @@ import { univState } from "../atoms/blind";
 export const About = () => {
   const univ = useRecoilValue(univState);
 
+  const scrollToFooter = () => {
+    const footerElement = document.getElementById("footer");
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const clickHandler = (e: number) => {
     switch (e) {
       case 1:
@@ -162,6 +169,12 @@ export const About = () => {
           </ShowText>
         </Wrapper>
       </GridContainer>
+
+      <p id="more" onClick={scrollToFooter}>
+        MORE
+        <br />
+        <span>(GitHub, velog)</span>
+      </p>
     </Aboutdiv>
   );
 };
@@ -187,6 +200,24 @@ const Aboutdiv = styled.div`
       color: #c7e5ff;
     }
   }
+
+  & > #more {
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 3vh !important;
+    text-align: center;
+    &:hover {
+      color: #a8d7ff;
+      font-weight: 700;
+    }
+    & > span {
+      color: #b8b8b8;
+      font-size: 0.9em;
+    }
+    @media (max-width: 1100px) {
+      margin-top: 5vh !important;
+    }
+  }
 `;
 
 const GridContainer = styled.div`
@@ -206,6 +237,15 @@ const GridContainer = styled.div`
     width: 1px;
     background-color: #757575;
   }
+
+  @media (max-width: 1100px) {
+    display: flex;
+    flex-flow: column nowrap;
+
+    &::after {
+      content: none;
+    }
+  }
 `;
 
 const Wrapper = styled.div`
@@ -215,6 +255,10 @@ const Wrapper = styled.div`
   align-items: center;
   gap: 4vh;
   margin: 7vh 0 6vh 0;
+
+  @media (max-width: 1100px) {
+    margin: 5vh 0 0 0;
+  }
 `;
 
 const ShowText = styled.div`

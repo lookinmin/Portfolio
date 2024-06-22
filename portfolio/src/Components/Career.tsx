@@ -20,7 +20,8 @@ export const Career = () => {
         <p>[주 업무]</p>
         <li>C, C++, Python 등 기초 프로그래밍 언어 강의</li>
         <li>코딩 올림피아드 대비 알고리즘 문제 해설 강의</li>
-        <li>Arduino, HTML5 & CSS3, 3D Printing 등 기타 강의</li>
+        <li>HTML5/CSS3/JavaScript 웹 프로그래밍 기초 강의</li>
+        <li>Arduino, 3D Printing 등 기타 흥미 유발 강의</li>
       </CareerBox>
     </CareerParent>
   );
@@ -53,7 +54,7 @@ const CareerBox = styled.div`
   display: flex;
   flex-flow: column nowrap;
   background-color: #505050;
-  width: 45%;
+  width: 60%;
   border-radius: 30px;
   padding: 2rem;
   min-height: 10vh;
