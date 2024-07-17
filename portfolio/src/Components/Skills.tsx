@@ -83,7 +83,7 @@ export const Skills = () => {
             수 있습니다.
           </li>
           <li>
-            RDBMS의<span className="sk">MySQL</span> 쿼리를 자유롭게 작성할 수
+            RDBMS의<span className="sk"> MySQL</span> 쿼리를 자유롭게 작성할 수
             있으며, <span className="sk">INDEX, VIEW</span> 등의 기술에 대한
             이해를 갖추고 있습니다.
           </li>
@@ -109,14 +109,14 @@ export const Skills = () => {
           </li>
           <li>
             <span className="sk">Android Studio</span> 기반 Native Application
-            개발 경험이 있으며, 서비스 배포 경험이 있습니다.
+            개발 및 서비스 배포 경험이 있습니다.
           </li>
           <li>
-            Agile 방법론에 대해 깊이 이해하고 있으며, Jira를 통해 이를
+          <span className="sk">Agile 방법론</span>에 대해 깊이 이해하고 있으며, <span className="sk">Jira</span>를 통해 이를
             프로젝트에 도입하는 것을 지향합니다.
           </li>
           <li>
-            Git-flow / GitHub-flow 브랜치 전략을 이해하고, 도입해왔습니다.
+          <span className="sk">Git-flow</span> / GitHub-flow 브랜치 전략을 이해하고, 도입해왔습니다.
           </li>
           <li>
             UI/UX 기획 설계 단계에 참여하고, Figma를 간단히 다룰 수 있습니다.

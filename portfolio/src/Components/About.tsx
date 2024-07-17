@@ -133,7 +133,7 @@ export const About = () => {
               <p style={{ textAlign: "center", lineHeight: "1.4em" }}>
                 수상 경력
                 <br />
-                <span style={{ fontSize: "0.8em" }}>(상세 보기 클릭)</span>
+                <span style={{ fontSize: "0.8em" }}>(클릭해 상세보기)</span>
               </p>
             </div>
             <div className="listup">
@@ -144,11 +144,11 @@ export const About = () => {
               <li onClick={() => clickHandler(2)}>
                 2023 공개SW 개발자대회 동상 - (주)비아웹 대표상
               </li>
-              <p className="subText">2023.12.01 / 과학기술정보통신부</p>
+              <p className="subText">2023.12.01 / 과학기술정보통신부 주최, (주)비아웹</p>
               <li onClick={() => clickHandler(3)}>
                 2023 관광데이터 활용 공모전 우수상
               </li>
-              <p className="subText">2023.11.29 / 한국관광공사</p>
+              <p className="subText">2023.11.29 / 한국관광공사, Kakao</p>
               <li onClick={() => clickHandler(4)}>
                 2023 {univ} 전자정보대학 캡스톤 디자인 대상
               </li>
@@ -156,7 +156,7 @@ export const About = () => {
               <li onClick={() => clickHandler(5)}>
                 2022 충청권 ICT 메이커톤 우수상
               </li>
-              <p className="subText">2022.11.05 / 과학기술정보통신부</p>
+              <p className="subText">2022.11.05 / 과학기술정보통신부 주최, 충북과학기술혁신원</p>
               <li onClick={() => clickHandler(6)}>
                 2022 관광데이터 활용 공모전 장려상
               </li>
