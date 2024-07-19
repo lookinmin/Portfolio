@@ -92,10 +92,10 @@ export const Projects = () => {
         "TypeScript 기반 Front-End 개발, 반응형 UI 역량 함양",
       ],
       description: [
-        "2023 충청권 ICT 메이커톤 본선 진출작",
+        "2023 충청권 ICT 메이커톤 본선 진출",
         "비록 수상에는 실패했지만, Figma 기반의 UI/UX 설계부터 React TS를 통한 개발 과정까지의 경험",
-        "Prompt Engineering을 통한 인공 지능의 창의적 활용과 효율적 대화 모델 활용 경험",
-        "GitHub-flow 브랜치 전략을 통한 효율적 협업 관리 진행",
+        "Prompt Engineering을 통한 LLM의 효율적 활용 경험",
+        "GitHub-flow 브랜치 전략을 통한 전략적 협업 관리 진행",
       ],
       skills: [
         "React",
@@ -152,24 +152,24 @@ export const Projects = () => {
         "Database",
       ],
       why: [
-        "초보자를 위해 AI 활용한 온라인 저지 웹 서비스 제작",
-        "코딩 강사로서의 경험에서 발전해 실 서비스를 통해 초보자를 돕기 위한 서비스 제작",
-        "React + FastAPI + MySQL 까지의 풀 스택 개발자 역량 함양",
+        "초보자를 위한 AI 활용 온라인 저지 웹 서비스 제작",
+        "코딩 강사 경험에서 발전한 에듀테크 기반 서비스 제작",
+        "React + FastAPI + MySQL 까지의 Full-stack 개발 역량 함양",
       ],
       description: [
-        "Git-flow브랜치 전략 도입, JIRA를 통한 Agile 방법론 도입으로 효율적 협업 진행",
+        "Git-flow 브랜치 전략 도입, JIRA를 통한 Agile 도입으로 효율적 협업 진행",
         "요구사항 명세서, UML 다이어그램 등 문서 기반 체계적 설계 경험",
-        "Prompt Engineering을 통한 인공 지능의 창의적 활용과 효율적 대화 모델 활용 경험",
-        "기존의 리스트뷰 Q&A를 Accordian 활용 기반으로 전환 등 지속적 리팩토링",
-        "근무했던 학원에 실 배포를 통한 50명의 실 사용자 피드백 및 유지보수",
+        "Prompt Engineering을 통한 LLM 활용 경험",
+        "기존의 '리스트뷰 Q&A' → 'Accordian 활용 기반'으로 전환 등 지속적 리팩토링",
+        "근무했던 학원에 실 배포하며 50명의 실 사용자 피드백 및 유지보수",
         "Apache 2.0 License 기반의 GitHub 배포를 통한 오픈소스로서 2차 가공 기회 제공",
       ],
       skills: [
         "React",
         "JavaScript",
-        "Redux, React-query, Axios, React Hooks",
-        "반응형 UI - MediaQuery, React-responsive",
-        "FastAPI, MySQL",
+        "Redux, React-query, Axios, Suspense ... etc",
+        "MediaQuery, React-responsive",
+        "FastAPI, Python, MySQL",
         "ChatGPT API, Prompt Engineering",
         "Mui, Boostrap",
         "Figma",
@@ -216,7 +216,7 @@ export const Projects = () => {
         "지역 관광 활성화를 위한 지역 관광지 정보 제공",
       ],
       description: [
-        "Flutter 기반 애플리케이션 제작 및 배포",
+        "Flutter내 MVVM 아키텍처 적용 애플리케이션 제작 및 배포",
         "Git-flow브랜치 전략 도입, JIRA를 통한 Agile 방법론 도입으로 효율적 협업 진행",
         "지난 2022 대회 보다 성장한 결과 (장려상 → 우수상)",
         "Firebase 기반 실시간 채팅 기능 (팀 커뮤니티) 제작",
@@ -258,21 +258,23 @@ export const Projects = () => {
       isAward: false,
       award: [""],
       team: "3인, FE 1 + BE 1 + Data 정제 1",
-      role: ["Team Leader", "Front-End", "UI/UX 설계", "Data Processing"],
+      role: ["Team Leader", "Front-End", "Back-End", "UI/UX 설계", "Data Processing"],
       why: [
-        "자극적 제목을 통한 낚시성 기사에 대한 비판적 사고 함양",
+        "자극적 제목의 낚시성 기사에 대한 비판적 사고 함양",
         "2023 빅데이터 시스템 교과목 프로젝트",
       ],
       description: [
         "약 90만개의 대용량 비정형 데이터 처리 웹 서비스 개발",
+        "Suspense를 통한 Lazy-loading 처리로 웹 성능 최적화",
         "react-chart를 통한 차트 서비스 개발",
         "React ↔ MongoDB 간 검색 서비스 개발",
+        "NoSQL Database Handling"
       ],
       skills: [
         "React JS",
         "Bootstrap, CSS3",
-        "React Hooks, react-chart",
-        "FastAPI",
+        "Suspense, React Hooks, react-chart",
+        "FastAPI, Python",
         "MongoDB",
       ],
       functions: [
@@ -316,7 +318,7 @@ export const Projects = () => {
         "AI 기반 기술을 사용한 REST API 및 애플리케이션 제작",
       ],
       description: [
-        "FastAPI 기반 REST API 설계 및 제작 후 해당 API를 통한 애플리케이션 제작",
+        "FastAPI 기반 REST API 설계 및 제작 후 해당 API를 활용한 애플리케이션 제작",
         "AI 기술(이미지 처리)을 사용한 앱 서비스 제작",
         "무박 2일간 대회를 통한 몰입도 높은 개발 과정 경험",
       ],
@@ -327,7 +329,7 @@ export const Projects = () => {
         "EasyOCR, openCV",
       ],
       functions: [
-        "이미지에서 Text 인식",
+        "이미지에서 개인정보 Text 인식",
         "인식 Text 분석을 통한 개인정보 유무 판단 및 모자이크 후처리 이미지 저장",
       ],
       GitUrl: "https://github.com/lookinmin/P.I.Shield",
@@ -346,12 +348,13 @@ export const Projects = () => {
       team: "6인",
       role: ["Team Leader", "Flutter 기반 앱 개발", "Front-End", "UI/UX 설계"],
       why: [
-        "COVID 19 하락세에 따른 관광 수요 증가에 편승한 애플리케이션 제작",
+        "COVID 19 하락세 및 관광 수요 증가에 편승한 애플리케이션 제작",
         "전국 축제에 대한 홍보 및 지역 경제 활성화 독려 애플리케이션 제작",
       ],
       description: [
         "Flutter + Firebase 기반 애플리케이션 제작",
-        "마케팅 수단으로서의 웹 페이지 제작 및 SEO 최적화 경험",
+        "마케팅 수단으로서의 웹 페이지 제작 및 SEO 최적화",
+        "반응형 UI 및 스크롤 애니메이션 등 동적 사용자 경험 제공",
         "GitHub Pages를 통한 웹 페이지 배포",
         "Google PlayStore 정책 미숙지로 인한 앱 배포 실패로 정책 숙지의 중요성 인지",
       ],
@@ -677,11 +680,8 @@ const ProjectBox = styled.div<ProjectType>`
   & > .bottom {
     display: flex;
     flex-flow: column nowrap;
-    width: 60%;
-    margin-top: 2vh;
-    /* border: 1px solid #aaaaaa;
-    border-radius: 20px;
-    padding: 1rem 1.5rem; */
+    /* width: 100%; */
+    margin-top : 2vh;
 
     & > .isUp {
       display: flex;
