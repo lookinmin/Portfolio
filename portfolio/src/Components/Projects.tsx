@@ -159,9 +159,10 @@ export const Projects = () => {
       description: [
         "Git-flow 브랜치 전략 도입, JIRA를 통한 Agile 도입으로 효율적 협업 진행",
         "요구사항 명세서, UML 다이어그램 등 문서 기반 체계적 설계 경험",
-        "Prompt Engineering을 통한 LLM 활용 경험",
-        "기존의 '리스트뷰 Q&A' → 'Accordian 활용 기반'으로 전환 등 지속적 리팩토링",
+        "Prompt Engineering을 통한 생성형 AI(ChatGPT) 효과적 활용 경험",
+        "기존의 '리스트뷰 Q&A' → 'Accordian 활용 기반'으로 전환 등의 리팩토링 과정 경험",
         "근무했던 학원에 실 배포하며 50명의 실 사용자 피드백 및 유지보수",
+        "MSA로 구축하며 확장성, 유지보수성의 장점과 배포 및 운영 관리의 복잡함의 단점 경험",
         "Apache 2.0 License 기반의 GitHub 배포를 통한 오픈소스로서 2차 가공 기회 제공",
       ],
       skills: [
