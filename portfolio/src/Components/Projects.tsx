@@ -42,7 +42,7 @@ export const Projects = () => {
   const projects: Project[] = [
     {
       name: 'YACHT DICE',
-      day: '2024.09 ~ ',
+      day: '2024.08 ~ ',
       isWeb: true,
       isAward: false,
       award: [''],
@@ -475,6 +475,7 @@ export const Projects = () => {
                               height="390"
                               width="100%"
                               style={{
+                                paddingTop: '5px',
                                 objectFit: 'contain',
                                 objectPosition: 'center',
                               }}
@@ -502,7 +503,7 @@ export const Projects = () => {
                               <img
                                 style={{
                                   width: '100%',
-                                  height: '650px',
+                                  height: '670px',
                                   objectFit: 'contain',
                                   objectPosition: 'center',
                                 }}

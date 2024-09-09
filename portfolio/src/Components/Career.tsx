@@ -1,13 +1,13 @@
-import React from "react";
-import styled from "styled-components";
-import { FaPersonRunning } from "react-icons/fa6";
+import React from 'react';
+import styled from 'styled-components';
+import { FaPersonRunning } from 'react-icons/fa6';
 
 export const Career = () => {
   return (
     <CareerParent id="career">
       <div>
         <FaPersonRunning size={30} color="#c7e5ff" />
-        <p>CAREER</p>
+        <p>CAREERS</p>
       </div>
 
       <CareerBox>
@@ -42,18 +42,20 @@ const CareerParent = styled.div`
     align-items: center;
     justify-content: center;
     & > p {
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
       font-size: 1.8rem;
       font-weight: 500;
       color: #c7e5ff;
     }
   }
+  background-color: #505050;
+  padding: 7vh 0;
 `;
 
 const CareerBox = styled.div`
   display: flex;
   flex-flow: column nowrap;
-  background-color: #505050;
+  background-color: #262626;
   width: 60%;
   border-radius: 15px;
   padding: 2rem;
