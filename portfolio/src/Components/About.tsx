@@ -120,6 +120,8 @@ export const About = () => {
               <p>자격증, 어학</p>
             </div>
             <div className="list">
+              <li>SQLD</li>
+              <p className="subText">2024.09.20</p>
               <li>OPIc IH</li>
               <p className="subText">2024.05.07</p>
               <li>정보처리기사</li>
