@@ -176,7 +176,7 @@ export const Projects = () => {
     },
     {
       name: 'Coding Coach : COCO',
-      day: '2023.02 ~ 2023.11',
+      day: '2023.04 ~ 2023.11',
       isWeb: true,
       isAward: true,
       award: [
@@ -246,7 +246,7 @@ export const Projects = () => {
     },
     {
       name: 'OFFSIDE',
-      day: '2023.04 ~ 2023.10',
+      day: '2023.05 ~ 2023.10',
       isWeb: false,
       isAward: true,
       award: ['2023 관광데이터 활용 공모전 우수상'],
@@ -387,7 +387,7 @@ export const Projects = () => {
     },
     {
       name: 'Festival-ing : Fing',
-      day: '2022.04 ~ 2022.10',
+      day: '2022.05 ~ 2022.10',
       isWeb: false,
       isAward: true,
       award: ['2022 관광데이터 활용 공모전 장려상'],
