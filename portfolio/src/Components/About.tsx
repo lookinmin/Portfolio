@@ -1,21 +1,21 @@
-import React from "react";
-import styled from "styled-components";
-import { HiOutlineInformationCircle } from "react-icons/hi2";
-import { IoSchool, IoPerson, IoPeopleSharp } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
-import { PiMedalMilitaryFill } from "react-icons/pi";
-import { TbAwardFilled } from "react-icons/tb";
-import { BsFillAwardFill } from "react-icons/bs";
-import { useRecoilValue } from "recoil";
-import { univState } from "../atoms/blind";
+import React from 'react';
+import styled from 'styled-components';
+import { HiOutlineInformationCircle } from 'react-icons/hi2';
+import { IoSchool, IoPerson, IoPeopleSharp } from 'react-icons/io5';
+import { MdEmail } from 'react-icons/md';
+import { PiMedalMilitaryFill } from 'react-icons/pi';
+import { TbAwardFilled } from 'react-icons/tb';
+import { BsFillAwardFill } from 'react-icons/bs';
+import { useRecoilValue } from 'recoil';
+import { univState } from '../atoms/blind';
 
 export const About = () => {
   const univ = useRecoilValue(univState);
 
   const scrollToFooter = () => {
-    const footerElement = document.getElementById("footer");
+    const footerElement = document.getElementById('footer');
     if (footerElement) {
-      footerElement.scrollIntoView({ behavior: "smooth" });
+      footerElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -24,19 +24,19 @@ export const About = () => {
       case 1:
       case 2:
       case 4:
-        window.open("https://github.com/PDA-PRO/.github");
+        window.open('https://github.com/PDA-PRO/.github');
         break;
       case 3:
-        window.open("https://github.com/OFFSIDE-PDA/OFFSIDE");
+        window.open('https://github.com/OFFSIDE-PDA/OFFSIDE');
         break;
       case 5:
-        window.open("https://github.com/lookinmin/P.I.Shield");
+        window.open('https://github.com/lookinmin/P.I.Shield');
         break;
       case 6:
-        window.open("https://github.com/lookinmin/Fing");
+        window.open('https://github.com/lookinmin/Fing');
         break;
       case 7:
-        window.open("https://github.com/lookinmin/KoreanTime");
+        window.open('https://github.com/lookinmin/KoreanTime');
         break;
     }
   };
@@ -83,10 +83,10 @@ export const About = () => {
               <p>병역</p>
             </div>
 
-            <p style={{ textAlign: "center", lineHeight: "1.5em" }}>
+            <p style={{ textAlign: 'center', lineHeight: '1.5em' }}>
               육군 병장 만기제대
               <br />
-              <span style={{ fontSize: "0.9em", color: "#aaaaaa" }}>
+              <span style={{ fontSize: '0.9em', color: '#aaaaaa' }}>
                 (19.07 - 21.02)
               </span>
             </p>
@@ -101,13 +101,13 @@ export const About = () => {
             <div className="list">
               <li>{univ} 전자정보대학 제 22대 SUMMIT 학생회 복지국장</li>
               <p className="subText">2023.01.01 ~ 2023.12.31</p>
-              <li>학과 동아리 PDA-PRO 학습부장</li>
+              <li>교내 소프트웨어 학술 동아리 PDA-PRO 학습부장</li>
               <p className="subText">2022.01.01 ~ 2023.12.31</p>
               <li>{univ} SW중심사업단 학부생 튜터</li>
               <p className="subText">2022.09.01 ~ 2023.07.01</p>
               <li>{univ} 전자정보대학 제 21대 EQUALITY 학생회 정책기획국장</li>
               <p className="subText">2022.01.01 ~ 2022.12.31</p>
-              <li>학과 동아리 CGAC 사무차장</li>
+              <li>교내 소프트웨어 학술 동아리 CGAC 사무차장</li>
               <p className="subText">2019.01.01 ~ 2019.07.22</p>
             </div>
           </ShowText>
@@ -120,7 +120,7 @@ export const About = () => {
               <p>자격증, 어학</p>
             </div>
             <div className="list">
-              <li>SQLD</li>
+              <li>SQLD(개발자)</li>
               <p className="subText">2024.09.20</p>
               <li>OPIc IH</li>
               <p className="subText">2024.05.07</p>
@@ -132,10 +132,10 @@ export const About = () => {
           <ShowText>
             <div className="un">
               <TbAwardFilled size={23} color="gold" />
-              <p style={{ textAlign: "center", lineHeight: "1.4em" }}>
+              <p style={{ textAlign: 'center', lineHeight: '1.4em' }}>
                 수상 경력
                 <br />
-                <span style={{ fontSize: "0.8em" }}>(클릭해 상세보기)</span>
+                <span style={{ fontSize: '0.8em' }}>(클릭해 상세보기)</span>
               </p>
             </div>
             <div className="listup">
@@ -146,11 +146,13 @@ export const About = () => {
               <li onClick={() => clickHandler(2)}>
                 2023 공개SW 개발자대회 동상 - (주)비아웹 대표상
               </li>
-              <p className="subText">2023.12.01 / 과학기술정보통신부 주최, (주)비아웹</p>
+              <p className="subText">
+                2023.12.01 / 과학기술정보통신부 주관, (주)비아웹
+              </p>
               <li onClick={() => clickHandler(3)}>
                 2023 관광데이터 활용 공모전 우수상
               </li>
-              <p className="subText">2023.11.29 / 한국관광공사, Kakao</p>
+              <p className="subText">2023.11.29 / 한국관광공사, (주)Kakao</p>
               <li onClick={() => clickHandler(4)}>
                 2023 {univ} 전자정보대학 캡스톤 디자인 대상
               </li>
@@ -158,11 +160,13 @@ export const About = () => {
               <li onClick={() => clickHandler(5)}>
                 2022 충청권 ICT 메이커톤 우수상
               </li>
-              <p className="subText">2022.11.05 / 과학기술정보통신부 주최, 충북과학기술혁신원</p>
+              <p className="subText">
+                2022.11.05 / 과학기술정보통신부 주관, 충북과학기술혁신원
+              </p>
               <li onClick={() => clickHandler(6)}>
                 2022 관광데이터 활용 공모전 장려상
               </li>
-              <p className="subText">2022.10.06 / 한국관광공사, Kakao</p>
+              <p className="subText">2022.10.06 / 한국관광공사, (주)Kakao</p>
               <li onClick={() => clickHandler(7)}>
                 2022 오픈소스전문프로젝트 교과기반 프로젝트 우수상
               </li>
@@ -196,7 +200,7 @@ const Aboutdiv = styled.div`
     align-items: center;
     justify-content: center;
     & > p {
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
       font-size: 1.8rem;
       font-weight: 500;
       color: #c7e5ff;
@@ -230,7 +234,7 @@ const GridContainer = styled.div`
   margin-top: 2vh;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     right: 50%;
     transform: translateX(50%);
