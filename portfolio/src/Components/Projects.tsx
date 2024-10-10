@@ -41,46 +41,6 @@ export const Projects = () => {
 
   const projects: Project[] = [
     {
-      name: 'YACHT DICE',
-      day: '2024.08 ~ ',
-      isWeb: true,
-      isAward: false,
-      award: [''],
-      team: '1인 프로젝트',
-      role: ['Full Stack', 'UI/UX'],
-      why: ['보드게임 Yacht Dice를 AI를 활용한 웹/앱 게임으로'],
-      description: [
-        'PWA를 통한 웹/앱 서비스 개발',
-        'React TS, FastAPI, MySQL의 풀스택 개발',
-        '기획 → 설계 → 개발 → 배포의 시스템 전체 1인 구축',
-      ],
-      skills: [
-        'React, TypeScript',
-        'FastAPI, Python',
-        'MySQL',
-        '@media, Recoil, Styled-components',
-        'Vercel, AWS S3',
-      ],
-      functions: [
-        '※ 9월 현재, 로그인/회원가입, 친구추가 기능 구현 (추후 기능 지속 개발 예정)',
-        '로그인, 친구추가, 게임 서비스',
-        'GPT 4 API와 프롬프트 엔지니어링, RAG를 활용한 AI 대전',
-        '@media를 통한 반응형 UI 및 다크모드 지원',
-      ],
-      GitUrl: 'https://github.com/lookinmin/YACHT_DICE',
-      isOut: false,
-      etcUrl: [''],
-      pictures: [
-        'https://yachtdice.s3.ap-northeast-2.amazonaws.com/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%EC%9D%B4%EB%AF%B8%EC%A7%80/yacht+%EC%84%A4%EA%B3%84.png',
-        'https://yachtdice.s3.ap-northeast-2.amazonaws.com/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%EC%9D%B4%EB%AF%B8%EC%A7%80/yacht+figma.png',
-        'https://yachtdice.s3.ap-northeast-2.amazonaws.com/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%EC%9D%B4%EB%AF%B8%EC%A7%80/yacht+%EB%A1%9C%EA%B7%B8%EC%9D%B8.png',
-        'https://yachtdice.s3.ap-northeast-2.amazonaws.com/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%EC%9D%B4%EB%AF%B8%EC%A7%80/yacht+%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png',
-        'https://yachtdice.s3.ap-northeast-2.amazonaws.com/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%EC%9D%B4%EB%AF%B8%EC%A7%80/yacht+%EC%B9%9C%EA%B5%AC%EC%B6%94%EA%B0%80.png',
-      ],
-      isVideo: false,
-      video: '',
-    },
-    {
       name: "lookin_min's Portfolio",
       day: '2024.04',
       isWeb: true,
