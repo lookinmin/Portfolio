@@ -52,7 +52,8 @@ export const Projects = () => {
       description: [
         '포트폴리오 웹사이트 구축 및 배포',
         'React TS, Styled-components를 통한 CSS-in-JS 개발',
-        'Vercel을 통한 Git 연동 배포',
+        'Vercel을 통한 Git 연동 Continuous Deployment',
+        'Recoil 기반 방문자 상태 관리',
       ],
       skills: [
         'React',
@@ -95,18 +96,19 @@ export const Projects = () => {
       description: [
         '2023 충청권 ICT 메이커톤 본선 진출',
         '비록 수상에는 실패했지만, Figma 기반의 UI/UX 설계부터 React TS를 통한 개발 과정까지의 경험',
+        'Swal을 통한 로딩 UI 등의 상호작용 UI 제공',
+        '기존 API 호출 방식(fetch, Axios) -> React-query 도입으로 비동기 통신에서의 성능 최적화',
         'Prompt Engineering을 통한 LLM의 효율적 활용 경험',
         'GitHub-flow 브랜치 전략을 통한 전략적 협업 관리 진행',
       ],
       skills: [
-        'React',
-        'TypeScript',
+        'React, TypeScript',
         'Styled-components',
         'Redux, React-query, Axios, React Hooks',
-        '반응형 UI - MediaQuery, React-responsive',
+        '반응형 UI : MediaQuery, React-responsive',
         'FastAPI',
         'ChatGPT API, Prompt Engineering',
-        'Mui, Boostrap',
+        'Mui, Boostrap, sweetAlert2',
         'Figma',
       ],
       functions: [
@@ -158,13 +160,16 @@ export const Projects = () => {
         'React + FastAPI + MySQL 까지의 Full-stack 개발 역량 함양',
       ],
       description: [
-        'Git-flow 브랜치 전략 도입, JIRA를 통한 Agile 도입으로 효율적 협업 진행',
+        'Git-flow 브랜치 전략 도입, Jira를 통한 Agile 도입으로 효율적 협업 진행',
         '요구사항 명세서, UML 다이어그램 등 문서 기반 체계적 설계 경험',
+        '토큰 인증 기반 방식, Redux 상태 관리 로그인 기능 개발',
+        "Q&A 기능 리팩토링 (리스트뷰 -> 'Accordian')으로 시인성, 사용 편리성 강화",
+        `마이페이지 내 API 호출 로직 개선을 통한 데이터 중복 접근 최소화 및 Suspense의 Lazy-loading 성능 최적화를 통해 1s 이상 렌더링 시간 감소`,
+        '채점 결과 제공 페이지 내 다수의 AI 기능 호출 로직 개선 및 세부 기능 별 컴포넌트 구분으로 1s 이상 렌더링 시간 감소',
+        'Swal 및 직접 제작한 로딩 화면 UI 등의 상호작용 UI를 통해 향상된 사용 경험 제공',
         'Prompt Engineering을 통한 생성형 AI(ChatGPT) 효과적 활용 경험',
-        "기존의 '리스트뷰 Q&A' → 'Accordian 활용 기반'으로 전환 등의 리팩토링 과정 경험",
-        '마이페이지 내 불필요 리렌더링 제거 및 렌더링 속도 향상을 위한 API 호출 로직 개선, Lazy-loading 도입',
-        '근무 학원과의 연계 배포를 통한 50명의 사용자 피드백 및 유지보수',
-        'MSA 구축을 통한 확장성, 유지보수성의 장점과 배포 및 운영 관리의 복잡함의 단점 경험',
+        '근무 학원과의 연계 배포를 통한 약 40명의 사용자 피드백 및 유지보수',
+        'MSA 구축을 통한 확장성, 유지보수성의 장점 / 배포 및 운영 관리의 복잡함의 단점 경험',
         'Apache 2.0 License 기반의 GitHub 배포를 통한 오픈소스로서 2차 가공 기회 제공',
       ],
       skills: [
@@ -174,8 +179,8 @@ export const Projects = () => {
         'MediaQuery, React-responsive',
         'FastAPI, Python, MySQL',
         'ChatGPT API, Prompt Engineering',
-        'Mui, Boostrap',
-        'Git, JIRA, Figma',
+        'Mui, Boostrap, sweetAlert2',
+        'Git, Jira, Figma',
       ],
       functions: [
         '로그인 및 회원가입',
@@ -219,10 +224,10 @@ export const Projects = () => {
       ],
       description: [
         'Flutter내 MVVM 아키텍처 적용 애플리케이션 제작 및 배포',
-        'Git-flow브랜치 전략 도입, JIRA를 통한 Agile 방법론 도입으로 효율적 협업 진행',
-        '지난 2022 대회 보다 성장한 결과 (장려상 → 우수상)',
+        'Git-flow브랜치 전략 도입, Jira를 통한 Agile 방법론 도입으로 효율적 협업 진행',
+        '지난 2022 대회 보다 성장한 결과 (장려상 -> 우수상)',
         'Firebase 기반 실시간 채팅 기능 (팀 커뮤니티) 제작',
-        '구글, K리그 홈페이지 Crawling을 통한 실시간 경기 정보 제공',
+        'K리그 경기 정보 제공 API의 부재 -> 구글, K리그 홈페이지 Crawling을 통한 실시간 경기 정보 제공',
       ],
       skills: [
         'Flutter',
@@ -231,7 +236,7 @@ export const Projects = () => {
         'Firebase',
         'Kakao API, Tour API 4.0',
         'Figma',
-        'Git, JIRA',
+        'Git, Jira',
       ],
       functions: [
         '카카오 로그인 및 시스템 회원가입',
@@ -320,11 +325,12 @@ export const Projects = () => {
         'openCV, EasyOCR 기반 이미지 처리',
       ],
       why: [
-        '무심코 찍는, SNS에 업로드 되는 이미지 속 개인정보 유포 불감증에 대한 대안 제시',
+        '무심코 찍고, SNS에 업로드 하는 이미지 속 개인정보 유포 불감증에 대한 대안 제시',
         'AI 기반 기술을 사용한 REST API 및 애플리케이션 제작',
       ],
       description: [
         'FastAPI 기반 REST API 설계 및 제작 후 해당 API를 활용한 애플리케이션 제작',
+        '시간 제약으로 인한 텍스트 분류 모델의 부재 -> Python 내 정규식을 통해 개인정보 텍스트 분류 ',
         'AI 기술(이미지 처리)을 사용한 앱 서비스 제작',
         '무박 2일간 대회를 통한 몰입도 높은 개발 과정 경험',
       ],
@@ -335,6 +341,7 @@ export const Projects = () => {
         'EasyOCR, openCV',
       ],
       functions: [
+        '이미지 내 개인정보 텍스트(주소, 주민번호 등) 마스킹 솔루션',
         '이미지에서 개인정보 Text 인식',
         '인식 Text 분석을 통한 개인정보 유무 판단 및 모자이크 후처리 이미지 저장',
       ],
@@ -562,9 +569,17 @@ export const Projects = () => {
                 <BsExclamationLg size={25} color="skyblue" />
                 <p>경험 사항</p>
               </div>
-              {project.description.map((val) => {
-                return <li>{val}</li>;
-              })}
+              {project.description.map((val, index) => (
+                <li key={index}>
+                  {/* '\n'을 <br />로 대체하여 줄바꿈 적용 */}
+                  {val.split('\n').map((line, i) => (
+                    <React.Fragment key={i}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </li>
+              ))}
             </div>
           </ProjectBox>
         );
