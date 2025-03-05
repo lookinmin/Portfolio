@@ -10,16 +10,16 @@ export const Career = () => {
         <p>CAREERS</p>
       </div>
 
-      <CareerBox>
+      {/* <CareerBox>
         <p>서울우유협동조합</p>
         <p>2025.02 ~</p>
         <hr />
         <p>근무형태 : 인턴</p>
-        <p>소속속 : 경영정보팀</p>
+        <p>소속 : 경영정보팀</p>
         <hr />
         <p>[주 업무]</p>
         <li></li>
-      </CareerBox>
+      </CareerBox> */}
 
       <CareerBox>
         <p>남박사로봇코딩학원 (청주)</p>
