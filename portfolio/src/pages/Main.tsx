@@ -1,28 +1,28 @@
-import React, { useEffect } from "react";
-import styled from "styled-components";
-import { About } from "../Components/About";
-import { Career } from "../Components/Career";
-import { Skills } from "../Components/Skills";
-import { Projects } from "../Components/Projects";
-import Swal from "sweetalert2";
-import { univState } from "../atoms/blind";
-import { useRecoilState } from "recoil";
+import React, { useEffect } from 'react';
+import styled from 'styled-components';
+import { About } from '../Components/About';
+import { Career } from '../Components/Career';
+import { Skills } from '../Components/Skills';
+import { Projects } from '../Components/Projects';
+import Swal from 'sweetalert2';
+import { univState } from '../atoms/blind';
+import { useRecoilState } from 'recoil';
 
 export const Main = () => {
   const [univ, setUniv] = useRecoilState(univState);
 
   useEffect(() => {
     Swal.fire({
-      title: "WELCOME",
-      text: "방문해주셔서 감사합니다. 블라인드 채용 담당자이신가요?",
-      icon: "question",
+      title: 'WELCOME',
+      text: '방문해주셔서 감사합니다. 블라인드 채용 담당자이신가요?',
+      icon: 'question',
       allowEscapeKey: false,
       showDenyButton: true,
-      confirmButtonText: "네",
-      denyButtonText: "아니오",
+      confirmButtonText: '네',
+      denyButtonText: '아니오',
     }).then((res) => {
       if (res.isConfirmed) {
-        setUniv("00대학교");
+        setUniv('00대학교');
       }
     });
   }, [setUniv]);
@@ -30,20 +30,20 @@ export const Main = () => {
   return (
     <StyledBody>
       <InnerBody id="main">
-        <p style={{ textAlign: "center", lineHeight: "3.3em" }}>
-          <span style={{ fontSize: "1.7em", color: "skyblue" }} id="welcome">
+        <p style={{ textAlign: 'center', lineHeight: '3.3em' }}>
+          <span style={{ fontSize: '1.7em', color: 'skyblue' }} id="welcome">
             WELCOME
           </span>
-          <br />
-          Front-End & Full-Stack Developer
+          {/* <br />
+          Front-End & Full-Stack Developer */}
         </p>
         <p>
-          lookin_min, <span style={{ color: "skyblue" }}>조민수</span>입니다.
+          lookin_min, <span style={{ color: 'skyblue' }}>조민수</span>입니다.
         </p>
-        <p style={{ textAlign: "center", lineHeight: "1.6em" }}>
+        <p style={{ textAlign: 'center', lineHeight: '1.6em' }}>
           함께 일하고 싶은 동료이자,
           <br />
-          사용자 경험을 중시하는 개발자로 성장하고 있습니다.
+          사용자 경험을 중시하는 개발자, 아키텍처로 성장하고 있습니다.
         </p>
 
         <div className="imgGrid">
@@ -90,7 +90,7 @@ const InnerBody = styled.div`
   justify-content: start;
   padding: 4rem 0;
   & > p:nth-child(1) {
-    font-family: "WavvePADO-Regular";
+    font-family: 'WavvePADO-Regular';
     font-size: 2rem;
     font-weight: 500;
     color: #c7e5ff;

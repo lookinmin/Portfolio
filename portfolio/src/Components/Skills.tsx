@@ -1,7 +1,7 @@
-import React from "react";
-import { RiToolsFill } from "react-icons/ri";
-import styled from "styled-components";
-import { IoFlagSharp } from "react-icons/io5";
+import React from 'react';
+import { RiToolsFill } from 'react-icons/ri';
+import styled from 'styled-components';
+import { IoFlagSharp } from 'react-icons/io5';
 
 export const Skills = () => {
   return (
@@ -20,13 +20,13 @@ export const Skills = () => {
 
           <li>
             <span className="sk">React</span> Framework를 능숙하게 다루며
-            <span className="sk">JavaScript</span>,{" "}
+            <span className="sk">JavaScript</span>,{' '}
             <span className="sk">TypeScript</span>를 환경에 맞추어 선택해
             사용합니다.
           </li>
           <li>
             <span className="sk">useState, useReducer</span>같은 상태 관리
-            Hooks를 자유로이 사용하며,{" "}
+            Hooks를 자유로이 사용하며,{' '}
             <span className="sk">useMemo, useEffect</span> 등의 렌더링 관련
             Hooks 또한 무리 없이 사용합니다.
           </li>
@@ -36,22 +36,22 @@ export const Skills = () => {
             지속적으로 도입해왔습니다.
           </li>
           <li>
-            React 내에서 <span className="sk">React-responsive</span>와{" "}
+            React 내에서 <span className="sk">React-responsive</span>와{' '}
             <span className="sk">MediaQuery</span>를 통해 반응형 UI를 설계하고
             구축할 수 있습니다.
           </li>
           <li>
-            REST API의 구조를 인지하고 있으며 비동기 통신을 위해{" "}
+            REST API의 구조를 인지하고 있으며 비동기 통신을 위해{' '}
             <span className="sk">Axios, React-query, Redux-thunk</span>를
             자유로이 사용합니다.
           </li>
           <li>
-            <span className="sk">Bootstrap</span>,{" "}
+            <span className="sk">Bootstrap</span>,{' '}
             <span className="sk">Mui</span>와 같은 오픈소스를 적극적으로
             활용하고, 단순한 차용보단 기반 디자인에 맞춘 커스텀을 지향합니다.
           </li>
           <li>
-            UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{" "}
+            UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{' '}
             <span className="sk">flex, grid</span> display를 통한 layout 구성에
             능합니다.
           </li>
@@ -60,8 +60,8 @@ export const Skills = () => {
             고려한 설계와 시맨틱 마크업을 고려합니다.
           </li>
           <li>
-            현재는 <span className="sk">PWA</span>를 관심있게 지켜보고 있으며,{" "}
-            <span className="sk">웹 성능 최적화</span>와{" "}
+            현재는 <span className="sk">PWA</span>를 관심있게 지켜보고 있으며,{' '}
+            <span className="sk">웹 성능 최적화</span>와{' '}
             <span className="sk">Webpack</span>를 공부하고 있습니다.
           </li>
         </div>
@@ -83,9 +83,13 @@ export const Skills = () => {
             수 있습니다.
           </li>
           <li>
-            RDBMS의<span className="sk"> MySQL</span> 쿼리를 자유롭게 작성할 수
-            있으며, <span className="sk">INDEX, VIEW</span> 등의 기술에 대한
-            이해를 갖추고 있습니다.
+            RDBMS의<span className="sk"> MySQL(ANSI), Oracle</span> 쿼리를
+            자유롭게 작성할 수 있으며, <span className="sk">INDEX, VIEW</span>{' '}
+            등의 기술에 대한 이해를 갖추고 있습니다.
+          </li>
+          <li>
+            Procedure, Trigger, Package를 작성하고, 실행 계획에 따른 쿼리 튜닝을
+            진행하고 있습니다.
           </li>
           <li>
             <span className="sk">MongoDB, Firebase</span> 를 통한 NoSQL DB
@@ -112,11 +116,13 @@ export const Skills = () => {
             개발 및 서비스 배포 경험이 있습니다.
           </li>
           <li>
-          <span className="sk">Agile 방법론</span>에 대해 깊이 이해하고 있으며, <span className="sk">Jira</span>를 통해 이를
-            프로젝트에 도입하는 것을 지향합니다.
+            <span className="sk">Agile 방법론</span>에 대해 깊이 이해하고
+            있으며, <span className="sk">Jira</span>를 통해 이를 프로젝트에
+            도입하는 것을 지향합니다.
           </li>
           <li>
-          <span className="sk">Git-flow</span> / GitHub-flow 브랜치 전략을 이해하고, 도입해왔습니다.
+            <span className="sk">Git-flow</span> / GitHub-flow 브랜치 전략을
+            이해하고, 도입해왔습니다.
           </li>
           <li>
             UI/UX 기획 설계 단계에 참여하고, Figma를 간단히 다룰 수 있습니다.
@@ -295,7 +301,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     & > p {
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
       font-size: 1.8rem;
       font-weight: 500;
       color: #c7e5ff;
@@ -379,7 +385,7 @@ const ParentDiv = styled.div`
       grid-column: 1/7;
       font-size: 1.8em;
       color: #2b2b2b;
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
     }
 
     border-radius: 20px;
@@ -405,7 +411,7 @@ const ParentDiv = styled.div`
       font-size: 1.5em;
       font-weight: 600;
       color: green;
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
     }
   }
 
@@ -428,7 +434,7 @@ const ParentDiv = styled.div`
       font-size: 1.5em;
       font-weight: 600;
       color: navy;
-      font-family: "WavvePADO-Regular";
+      font-family: 'WavvePADO-Regular';
     }
   }
 `;

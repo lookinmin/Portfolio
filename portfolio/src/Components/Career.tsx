@@ -18,7 +18,7 @@ export const Career = () => {
         <p>소속 : 경영정보팀</p>
         <hr />
         <p style={{ color: '#c7e5ff' }}>[개발 환경 및 활용 언어]</p>
-        <li>Oracle 12C</li>
+        <li>Oracle 12C(PL/SQL)</li>
         <li>OracleERP 12.2.7</li>
         <li>MyBuilder, Webcrea</li>
         <li>SVN, Jenkins</li>
@@ -26,9 +26,9 @@ export const Career = () => {
         <li>OZ Designer, Report</li>
         <hr />
         <p style={{ color: '#c7e5ff' }}>[주 업무]</p>
-        <li>AP(채무) 모듈 관련 업무 진행</li>
-        <li>PO(구매) 모듈 관련 업무 진행</li>
-        <li>TAX(세무) 모듈 관련 업무 진행</li>
+        <li>AP(채무) 모듈 운영 및 유지보수</li>
+        <li>PO(구매) 모듈 운영 및 유지보수</li>
+        <li>TAX(세무) 모듈 운영 및 유지보수</li>
         <li>직원 공장도가 신청 및 조회 화면 개발</li>
         <li>업무 알림 시스템 개발</li>
       </CareerBox>
