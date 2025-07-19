@@ -43,7 +43,7 @@ export const Main = () => {
         <p style={{ textAlign: 'center', lineHeight: '1.6em' }}>
           함께 일하고 싶은 동료이자,
           <br />
-          사용자 경험을 중시하는 개발자, 아키텍처로 성장하고 있습니다.
+          사용자 경험을 중시하는 소프트웨어 엔지니어로 성장하고 있습니다.
         </p>
 
         <div className="imgGrid">

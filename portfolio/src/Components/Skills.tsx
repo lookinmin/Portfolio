@@ -25,44 +25,33 @@ export const Skills = () => {
             사용합니다.
           </li>
           <li>
-            <span className="sk">useState, useReducer</span>같은 상태 관리
-            Hooks를 자유로이 사용하며,{' '}
-            <span className="sk">useMemo, useEffect</span> 등의 렌더링 관련
-            Hooks 또한 무리 없이 사용합니다.
+            <span className="sk">useState, useMemo</span>등 Hooks를
+            사용해왔으며, Custom Hooks를 이해하고 도입해왔습니다.
           </li>
           <li>
-            <span className="nk">Props drilling</span> 등의 문제에서 벗어나기
-            위해 <span className="sk">Redux, Recoil</span> 상태관리 라이브러리를
-            지속적으로 도입해왔습니다.
+            <span className="sk">Redux, Recoil</span> 상태관리 라이브러리를 통해
+            <span className="nk">Props drilling</span> 등의 문제를
+            해결해왔습니다.
           </li>
           <li>
-            React 내에서 <span className="sk">React-responsive</span>와{' '}
+            <span className="sk">React-responsive</span>와{' '}
             <span className="sk">MediaQuery</span>를 통해 반응형 UI를 설계하고
             구축할 수 있습니다.
           </li>
           <li>
-            REST API의 구조를 인지하고 있으며 비동기 통신을 위해{' '}
+            JS의 단일 쓰레드 방식을 이해하고, 비동기 통신을 위해{' '}
             <span className="sk">Axios, React-query, Redux-thunk</span>를
-            자유로이 사용합니다.
+            사용합니다.
           </li>
           <li>
             <span className="sk">Bootstrap</span>,{' '}
-            <span className="sk">Mui</span>와 같은 오픈소스를 적극적으로
-            활용하고, 단순한 차용보단 기반 디자인에 맞춘 커스텀을 지향합니다.
+            <span className="sk">Mui</span>와 같은 오픈소스를 단순한 활용보단
+            시스템에 맞춘 커스텀을 지향합니다.
           </li>
           <li>
             UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{' '}
-            <span className="sk">flex, grid</span> display를 통한 layout 구성에
-            능합니다.
-          </li>
-          <li>
-            크로스 브라우징 이슈에 민감하게 대응하고, 웹 표준과 웹 접근성을
-            고려한 설계와 시맨틱 마크업을 고려합니다.
-          </li>
-          <li>
-            현재는 <span className="sk">PWA</span>를 관심있게 지켜보고 있으며,{' '}
-            <span className="sk">웹 성능 최적화</span>와{' '}
-            <span className="sk">Webpack</span>를 공부하고 있습니다.
+            <span className="sk">flex, grid</span> display를 통한 layout 구성을
+            선호합니다.
           </li>
         </div>
 
@@ -71,25 +60,19 @@ export const Skills = () => {
             <p>Back-End & Database</p>
             <IoFlagSharp color="#98cfff" size={22} />
           </div>
+          <li>REST 원칙을 이해하고, RESTful API를 설계할 수 있습니다.</li>
           <li>
-            REST 원칙을 이해하고, REST API와 RESTful API를 설계할 수 있습니다.
-          </li>
-          <li>
-            Python 기반의 <span className="sk">FastAPI</span> Framework을 통해
-            웹 서버를 구축할 수 있습니다.
-          </li>
-          <li>
-            <span className="sk">Express</span> 기반의 간단한 웹 서버를 구축할
-            수 있습니다.
+            <span className="sk">FastAPI</span> Framework을 통해 백엔드 로직을
+            구현해왔습니다.
           </li>
           <li>
             RDBMS의<span className="sk"> MySQL(ANSI), Oracle</span> 쿼리를
             자유롭게 작성할 수 있으며, <span className="sk">INDEX, VIEW</span>{' '}
-            등의 기술에 대한 이해를 갖추고 있습니다.
+            등에 대한 이해를 갖추고 있습니다.
           </li>
           <li>
-            Procedure, Trigger, Package를 작성하고, 실행 계획에 따른 쿼리 튜닝을
-            진행하고 있습니다.
+            <span className="sk">Procedure, Trigger, Package</span>의 PL/SQL을
+            작성하고, 실행 계획에 따른 쿼리 튜닝을 진행하고 있습니다.
           </li>
           <li>
             <span className="sk">MongoDB, Firebase</span> 를 통한 NoSQL DB
@@ -109,16 +92,16 @@ export const Skills = () => {
           </li>
           <li>
             <span className="sk">Flutter</span>를 통한 Cross-Platform
-            Application 개발에 능하고, 서비스 배포 경험이 있습니다.
+            Application 개발 경험과, 이를 통한 서비스 배포 이력이 있습니다.
           </li>
           <li>
             <span className="sk">Android Studio</span> 기반 Native Application
             개발 및 서비스 배포 경험이 있습니다.
           </li>
           <li>
-            <span className="sk">Agile 방법론</span>에 대해 깊이 이해하고
-            있으며, <span className="sk">Jira</span>를 통해 이를 프로젝트에
-            도입하는 것을 지향합니다.
+            SDLC의 전 과정을 이해하고,
+            <span className="sk">Agile 방법론</span> 기반 프로젝트 진행을
+            지향합니다.
           </li>
           <li>
             <span className="sk">Git-flow</span> / GitHub-flow 브랜치 전략을
@@ -217,8 +200,13 @@ export const Skills = () => {
 
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mysql.png"
-            alt="cpp"
+            alt="mysql"
             width="70px"
+          />
+          <img
+            src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/oracle.png"
+            alt="oracle"
+            width="100px"
           />
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/mongo.png"
@@ -237,17 +225,17 @@ export const Skills = () => {
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/c.png"
             alt="c"
-            width="82px"
+            width="72px"
           />
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/cpp.png"
             alt="cpp"
-            width="70px"
+            width="60px"
           />
           <img
             src="https://raw.githubusercontent.com/lookinmin/lookinmin/main/img/skills/vercel.png"
             alt="flutter"
-            width="130px"
+            width="110px"
           />
 
           <img
@@ -395,7 +383,7 @@ const ParentDiv = styled.div`
 
   & > .back {
     grid-column: 1/3;
-    grid-row: 3/5;
+    grid-row: 3/6;
     border-radius: 20px;
     background-color: #b8e4ab;
     padding: 2rem;
