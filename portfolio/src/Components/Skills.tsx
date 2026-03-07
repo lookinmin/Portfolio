@@ -30,7 +30,7 @@ export const Skills = () => {
           </li>
           <li>
             <span className="sk">Redux, Recoil</span> 상태관리 라이브러리를 통해
-            <span className="nk">Props drilling</span> 등의 문제를
+            <span className="nk"> Props drilling</span> 등의 문제를
             해결해왔습니다.
           </li>
           <li>
@@ -40,13 +40,12 @@ export const Skills = () => {
           </li>
           <li>
             JS의 단일 쓰레드 방식을 이해하고, 비동기 통신을 위해{' '}
-            <span className="sk">Axios, React-query, Redux-thunk</span>를
-            사용합니다.
+            <span className="sk">Axios, React-query</span>를 사용합니다.
           </li>
           <li>
             <span className="sk">Bootstrap</span>,{' '}
             <span className="sk">Mui</span>와 같은 오픈소스를 단순한 활용보단
-            시스템에 맞춘 커스텀을 지향합니다.
+            환경에 맞춘 커스텀을 지향합니다.
           </li>
           <li>
             UI/UX 기획 및 설계 단계에서 적극적으로 참여하고,{' '}
@@ -62,13 +61,13 @@ export const Skills = () => {
           </div>
           <li>REST 원칙을 이해하고, RESTful API를 설계할 수 있습니다.</li>
           <li>
-            <span className="sk">FastAPI</span> Framework을 통해 백엔드 로직을
-            구현해왔습니다.
+            <span className="sk">FastAPI(Python)</span> Framework을 통해
+            비즈니스 로직을 구현해왔습니다.
           </li>
           <li>
-            RDBMS의<span className="sk"> MySQL(ANSI), Oracle</span> 쿼리를
-            자유롭게 작성할 수 있으며, <span className="sk">INDEX, VIEW</span>{' '}
-            등에 대한 이해를 갖추고 있습니다.
+            RDBMS(<span className="sk"> MySQL(ANSI), Oracle</span>) 다뤄왔으며,{' '}
+            <span className="sk">INDEX, VIEW</span> 등에 대한 이해를 갖추고
+            있습니다.
           </li>
           <li>
             <span className="sk">Procedure, Trigger, Package</span>의 PL/SQL을

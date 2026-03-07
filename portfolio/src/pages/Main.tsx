@@ -41,9 +41,10 @@ export const Main = () => {
           lookin_min, <span style={{ color: 'skyblue' }}>조민수</span>입니다.
         </p>
         <p style={{ textAlign: 'center', lineHeight: '1.6em' }}>
-          함께 일하고 싶은 동료이자,
+          안정과 혁신의 접점을 설계하고,
           <br />
-          사용자 경험을 중시하는 소프트웨어 엔지니어로 성장하고 있습니다.
+          비즈니스 도메인에 대한 이해를 갖춘 소프트웨어 엔지니어로 성장하고
+          있습니다.
         </p>
 
         <div className="imgGrid">

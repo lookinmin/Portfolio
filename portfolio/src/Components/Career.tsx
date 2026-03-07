@@ -11,26 +11,40 @@ export const Career = () => {
       </div>
 
       <CareerBox>
-        <p>서울우유협동조합</p>
-        <p>2025.02.17 ~ (재직중)</p>
+        <p>롯데백화점</p>
+        <p>2025.10.28 ~ 2025.11.28</p>
         <hr />
         <p>근무 형태 : 인턴</p>
+        <p>소속 : IT기획팀</p>
+        <hr />
+        <p style={{ color: '#c7e5ff' }}>[주 업무]</p>
+        <li>백화점 IT 환경 파악 및 시스템 개선안 기획</li>
+        <hr />
+        <p style={{ color: '#c7e5ff' }}>[주요 프로젝트]</p>
+        <li>롯데백화점 웨딩 서비스 개선안 기획</li>
+      </CareerBox>
+
+      <CareerBox>
+        <p>서울우유협동조합</p>
+        <p>2025.02.17 ~ 2025.10.24</p>
+        <hr />
+        <p>근무 형태 : 정규직</p>
         <p>소속 : 경영정보팀</p>
         <hr />
         <p style={{ color: '#c7e5ff' }}>[개발 환경 및 활용 언어]</p>
-        <li>Oracle 12C(PL/SQL)</li>
-        <li>Oracle EBS 12.2.7</li>
+        <li>Oracle EBS, Oracle 12C</li>
         <li>MyBuilder, Webcrea</li>
         <li>SVN, Jenkins</li>
-        <li>Oracle9i Designer</li>
         <li>OZ Designer, Report</li>
         <hr />
         <p style={{ color: '#c7e5ff' }}>[주 업무]</p>
-        <li>AP(채무) 모듈 운영 관리 및 유지보수</li>
-        <li>PO(구매) 모듈 운영 관리 및 유지보수</li>
-        <li>TAX(세무) 모듈 운영 관리 및 유지보수</li>
-        <li>직원 공장도가 신청 및 조회 화면 개발</li>
-        <li>업무 알림 정보 시스템 개발</li>
+        <li>AP(채무), PO(구매), TAX(세무) 모듈 운영 관리 및 유지보수</li>
+        <li>AI 시스템 도입 기획 및 개발</li>
+        <hr />
+        <p style={{ color: '#c7e5ff' }}>[주요 프로젝트]</p>
+        <li>스마트 알림 시스템 구축</li>
+        <li>부가세 신고 프로세스 개선</li>
+        <li>AI 기반 집유량 예측 자동화 시스템 구축</li>
       </CareerBox>
 
       <CareerBox>
